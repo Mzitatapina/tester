@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/landing.css">
+    <!--<link rel="stylesheet" href="CSS/reset.css">-->
+</head>
+<body>
+    <div class="background">
+      <img class="phoni" src="IMAGES/agriculture.png" alt="Gurieli">
+      <div class="cover" ></div>
+      <div class="languagebarcover">
+        <div class="languagebar">
+          <a href="#"><p>GEO</p></a>
+          <a href="#"><p>ENG</p></a>
+        </div>
+      </div>
+        <div class="content-container">
+          
+          <header>
+            <img src="SVG/logo2.svg" alt="gurieli" class="logo">
+            <img id="menuIcon" class="forMobile" src="SVG/menu.svg" alt="burger-menu">
+            <nav id="menuBox"  class="menu-box">
+              <!--<img id="menuExit" class="exitMobile" src="SVG/exit.svg">--->
+              <span id="menuExit" class="exitMobile">&times;</span>
+             <ul>
+                <li><a href="landing.html">Home</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="#">BRAND HISTORY</a></li>
+                    <li><a class="dropdowna" href="#">PLANTATIONS & RESOURCES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="product_1.html">Products</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a class="dropdowna" href="product_1.html">HOT BREW TEA</a>
+                      <ul class="dropdown-submenu">
+                        <li><a class="dropdowna" href="product_2.html">GURIELI CLASSIC</a></li>
+                        <li><a class="dropdowna" href="product_1.html">PREMIUM: PRINCE GURIELI</a></li>
+                        <li><a class="dropdowna" href="#">SPECIAL EDITION</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdowna" href="product_3.html">ICED TEA</a></li>
+                  </ul>
+                </li>
+                <li><a href="#export">Export</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+    
+          <div class="content">
+            <div class="text1">
+              <p class="firstline"></p>
+              <h1 class="title1"></h1>
+              <h1 class="title2"></h1>
+              <p class="shortinfo"></p>
+            </div>
+            <div class="SocialMedia">
+              <a href="https://www.facebook.com/gurieliclassic/" target="_blank"><img src="SVG/fb.svg" alt=""></a>
+              <a href="https://www.instagram.com/gurieli/" target="_blank"><img src="SVG/insta.svg" alt=""></a>
+              <a href="https://www.youtube.com/channel/UC3Gypm3Bkl_Hc9NzkHfMfyA/videos" target="_blank"><img src="SVG/youtube.svg" alt=""></a>
+              <a href="#" target="_blank"><img src="SVG/linkedin.svg" alt=""></a>
+            </div>
+          </div>
+          <a href="#">
+            <button class="button1">READ MORE</button>
+          </a>
+          <a class="scroll" href="#maininfo">
+            <img  src="SVG/scroll.svg" alt="gurieli">
+          </a>
+        </div>
+    </div>
+
+    <section id="maininfo" class="maininfo">
+      <div class="history">
+        <div class="background1">
+         <img src="SVG/background1.svg" class="svg" alt="guria1"> 
+         <div class="circle"></div>
+        </div>
+        <div class="text2">
+          <h1 id="h1_History"></h1>
+          <p id="history"></p>
+          <a href="#">
+            <button class="button2">READ MORE</button>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="slider-container">
+        <img class="sliderbackground" src="SVG/background2.svg" alt="gurieli">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="slider">
+          <div class="slide active">
+            <div class="product"><img src="IMAGES/product1.png" alt="Product 1"><p>TRADITIONAL BLACK</p><br><p class="subp">Available in different formats,<br> Prince Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product2.png" alt="Product 2"><p>TRADITIONAL GREEN </p><br><p class="subp">Available in different formats, <br>Prince Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product3.png" alt="Product 3"><p>EARL GREY</p><br><p class="subp">Available in different formats, Prince <br>Gurieli edition</p></div>
+            <div class="product"><img src="IMAGES/product4.png" alt="Product 4"><p>ALPINE BERRY </p><br><p class="subp">Available in different formats,<br>Prince Gurieli edition</p></div>
+        </div>
+        <div class="slide">
+            <div class="product"><img src="IMAGES/product5.png" alt="Product 5"><p>TRADITIONAL BLACK</p><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product6.png" alt="Product 6"><p>TRADITIONAL GREEN </p><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product7.png" alt="Product 7"><p>EARL GREY </p><br><p class="subp">Available in different formats, Gurieli</p></div>
+            <div class="product"><img src="IMAGES/product8.png" alt="Product 8"><p>ALPINE BERRY</p><br><p class="subp">Available in different formats, Gurieli</p></div>
+        </div>
+          
+        </div>
+        
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+
+      <div class="brand">
+        <div class="text3">
+          <h1 id="h1_Brand"></h1>
+          <p id="brand"></p>
+          <a href="#">
+            <button class="button3">READ MORE</button>
+          </a>
+        </div>
+        <div class="background3">
+          <img src="SVG/background3.svg" class="svg3" alt="GURIELI">
+          <div class="lowcircle"></div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+        
+    </footer>
+
+    <script src="JS/text.js"></script>
+    <script src="JS/app.js"></script>
+
+</body>
+</html>
