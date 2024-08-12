@@ -199,8 +199,9 @@ section{
 
 .AboutProduct{
     text-align: center;
-    margin: 5% 15%;
-    font-size: x-small;
+    margin: 5% 20%;
+    font-size: 14px;
+    color: #545454;
 }
 
 
