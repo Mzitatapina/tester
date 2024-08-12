@@ -205,8 +205,8 @@ section{
 }
 
 .AboutProduct2{
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -277,9 +277,9 @@ section{
 }
 
 .ModalButton > img{
-    width: 30%;
-    height: 20%;
-    padding-top: 3%;
+    width: 45%;
+    height: 65%;
+    padding-top: 5%;
 }
 
 .modal-content > img{
