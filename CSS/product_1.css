@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@font-face {
+    font-family: 'Albertus Medium';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Albertus Medium'), url('../fonts/Albertus Medium Regular.woff') format('woff');
+    }
 
 html, body{
     margin: 0;
@@ -79,19 +84,83 @@ nav{
 
 ul{
     display: flex;
-    gap: 5%
+    gap: 5%;
+    list-style-type: none;
 }
 
 
 li{
     display: inline-flex;
     justify-content: space-between;
+    position: relative;
+    display: inline-block;
 }
 
-a{
+li > a{
+    font-family: 'Albertus Medium';
+    text-transform: uppercase;
     text-decoration: none;
-    color:  black;
-    
+    color:  #FFFFFF;  
+    font-size: 20px;
+}
+
+a:hover{
+    color: #C7C965;
+}
+
+ul li .dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #C7C965;
+    padding: 10% 20%;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #ccc;
+}
+  
+ul li .dropdown li {
+    padding: 8px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.dropdowna{
+    font-size: 15px;
+}
+
+ul li .dropdown a:hover{
+    color:#FFFFFF;
+    font-weight: 600;
+}
+
+ul li:hover > .dropdown {
+    display: block;
+    max-height: 200px; 
+    opacity: 1;
+}
+
+  .dropdown, .dropdown-submenu {
+	display: none;
+	margin-top: 10px; 
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 10px; 
+    min-width: 150px; 
+}
+  
+.dropdown li:hover > .dropdown-submenu {
+    display: block;
+    max-height: 150px; 
+    opacity: 1;
+    margin-top: 0; 
+    margin-left: 20px;
+}
+
+.dropdown li:last-child, .dropdown-submenu li:last-child {
+	border-bottom: none;
 }
 
 .ProductBackground{
