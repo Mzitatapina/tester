@@ -164,8 +164,8 @@ ul li:hover > .dropdown {
 }
 
 .ProductBackground{
-    height: 100vh;
-    width: 50vw;   
+    height: 100%;
+    width: 50%;   
 }
 
 
