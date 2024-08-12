@@ -165,9 +165,13 @@ ul li:hover > .dropdown {
 
 .ProductBackground{
     height: 100%;
-    width: 50%;   
+    width: 100%;   
 }
 
+.ProductBackground img{
+    height: 80%;
+    width: 50%; 
+}
 
 section{
     background-color: #EDEDEB;
