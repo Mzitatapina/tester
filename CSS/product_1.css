@@ -171,6 +171,7 @@ ul li:hover > .dropdown {
 .ProductBackground img{
     box-sizing: border-box;
     height: 20%; 
+    overflow: hidden;
 }
 
 section{
