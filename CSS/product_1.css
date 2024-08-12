@@ -169,8 +169,8 @@ ul li:hover > .dropdown {
 }
 
 .ProductBackground img{
-    height: 80%;
-    width: 50%; 
+    box-sizing: border-box;
+    height: 20%; 
 }
 
 section{
