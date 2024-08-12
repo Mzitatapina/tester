@@ -96,7 +96,7 @@ li{
     display: inline-block;
 }
 
-li > a{
+a{
     font-family: 'Albertus Medium';
     text-transform: uppercase;
     text-decoration: none;
