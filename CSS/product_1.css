@@ -204,6 +204,11 @@ section{
     color: #545454;
 }
 
+.AboutProduct2{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 .premium, .classic{
     display: flex;
@@ -211,15 +216,15 @@ section{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 
 
 .ModalButton{
     width: 15%;
-    height: 20%;
+    height: 40%;
     background-color: white;
     border-radius: 5%;
     border: none;
