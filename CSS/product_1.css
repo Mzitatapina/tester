@@ -22,6 +22,9 @@ h1, h4{
     color: #101010;
 }
 
+h4{
+    line-height: 0%;
+}
 
 p{
     font-family: krub, sans-serif;
@@ -191,7 +194,7 @@ section{
 }
 
 .title2{
-    font-size: 'krub';
+    font-family: 'krub';
     text-align: center;
     text-transform: capitalize;
     color: #545454;
