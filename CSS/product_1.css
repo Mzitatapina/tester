@@ -28,6 +28,7 @@ p{
     font-family: 'krub', sans-serif;
     font-size: smaller;
     color: #545454;
+    margin-bottom: 0;
 }
 
 
@@ -197,7 +198,7 @@ section{
     text-transform: capitalize;
     color: #545454;
     font-weight: 100;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .text{
