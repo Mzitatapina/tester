@@ -227,8 +227,8 @@ section{
 
 
 .ModalButton{
-    width: 15%;
-    height: 40%;
+    width: 25%;
+    height: 60%;
     background-color: white;
     border-radius: 5%;
     border: none;
@@ -281,8 +281,8 @@ section{
 }
 
 .ModalButton > img{
-    width: 45%;
-    height: 65%;
+    width: 90%;
+    height: 80%;
     padding-top: 5%;
 }
 
