@@ -28,7 +28,6 @@ p{
     font-family: 'krub', sans-serif;
     font-size: smaller;
     color: #545454;
-    margin-bottom: 0;
 }
 
 
@@ -202,6 +201,7 @@ section{
 }
 
 .text{
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 .AboutProduct{
