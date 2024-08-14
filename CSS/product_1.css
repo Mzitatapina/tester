@@ -279,7 +279,7 @@ section{
     cursor: pointer;
 }
 
-.ModalButton img{
+.ModalButton > img{
     width: 45%;
     height: 65%;
     padding-top: 5%;
