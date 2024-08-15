@@ -266,13 +266,13 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-radius: 15%;
+    border-radius: 5%;
     background-color: #fefefe;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
     width: 50%; 
-    opacity: 0.9;
+    opacity: 0.1;
 }
 
 
@@ -304,6 +304,10 @@ section{
 .modal-content > img{
     width: 40%;
     height: 100%;
+}
+
+.productDescreption{
+    padding-top: 5%;
 }
 
 .productDescreption > h1{
