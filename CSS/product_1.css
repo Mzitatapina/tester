@@ -296,6 +296,10 @@ section{
     padding-top: 7%;
 }
 
+.ModalButton > h4{
+    margin-bottom: 0;
+}
+
 .modal-content > img{
     width: 20%;
     height: 100%;
