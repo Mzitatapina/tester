@@ -305,6 +305,7 @@ section{
     height: 100%;
     margin: 0;
     padding: 0;
+    align-items: start;
 }
 
 .productDescreption{
@@ -324,7 +325,7 @@ section{
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #545454;
-    text-align: left;
+    text-align: justify;
 }
 
 .productDescreption > p{
