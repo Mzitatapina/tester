@@ -306,7 +306,6 @@ section{
 }
 
 .productDescreption > h1{
-    font-size: 40px;
     text-align: left;
     font-family: 'Playfair Display';
     font-weight: 100;
@@ -317,7 +316,7 @@ section{
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #101010;
-    text-align: end;
+    text-align: left;
 }
 
 .productDescreption > p{
@@ -325,10 +324,11 @@ section{
     font-family: 'krub';
     font-weight: 100;
     color:#545454;
+    font-size: 14px;
 }
 
 .productDescreption > h2{
-    text-align: left;
+    text-align: end;
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #101010;
