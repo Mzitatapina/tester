@@ -309,9 +309,9 @@ section{
 }
 
 .productDescreption{
-    padding-right: 2%;
+    padding: 0;
     margin: 0;
-    transform: translateX(-20%);
+    transform: translateX(-25%);
 }
 
 .productDescreption > h1{
