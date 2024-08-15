@@ -305,12 +305,12 @@ section{
     height: 100%;
     margin: 0;
     padding: 0;
-    transform: translateX(-25%);
+    transform: translateX(-20%);
 }
 
 .productDescreption{
     padding-top: 7%;
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
 
 .productDescreption > h1{
@@ -325,7 +325,6 @@ section{
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #545454;
-    text-align: justify;
 }
 
 .productDescreption > p{
@@ -333,6 +332,7 @@ section{
     font-family: 'krub';
     color:#545454;
     font-size: 14px;
+    text-align: justify;
 }
 
 .productDescreption > h2{
