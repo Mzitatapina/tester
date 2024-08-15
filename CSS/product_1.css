@@ -311,7 +311,7 @@ section{
 .productDescreption{
     padding: 0;
     margin: 0;
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
 
 .productDescreption > h1{
@@ -320,7 +320,7 @@ section{
     font-weight: 100;
     color: #101010;
     font-size: 38px;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 #product1{
