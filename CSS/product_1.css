@@ -309,7 +309,7 @@ section{
 }
 
 .productDescreption{
-    padding: 0;
+    padding-right: 2%;
     margin: 0;
     transform: translateX(-20%);
 }
