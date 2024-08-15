@@ -321,7 +321,6 @@ section{
     color: #101010;
     font-size: 36px;
     padding-top: 20%;
-    line-height: 0.5%;
 }
     
 
@@ -331,6 +330,8 @@ section{
     color: #545454;
     text-align: left;
     margin-bottom: 2%;
+    margin-bottom: 10%;
+    line-height: 0;
 }
 
 .productDescreption > p{
