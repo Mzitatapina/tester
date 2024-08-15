@@ -259,7 +259,6 @@ section{
     overflow: auto; 
     background-color: rgb(0,0,0,); 
     background-color: rgba(0,0,0,0.4); 
-    border-radius: 5%;
 }
 
 /* Modal Content */
@@ -273,7 +272,6 @@ section{
     padding: 20px;
     border: 1px solid #888;
     width: 50%; 
-    opacity: 0.95;
 }
 
 
