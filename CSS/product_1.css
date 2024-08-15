@@ -264,7 +264,7 @@ section{
 /* Modal Content */
 .modal-content {
     display: grid;
-    grid-template-rows: 20% 75% 5%;
+    grid-template-columns: 20% 75% 5%;
     justify-content:start;
     border-radius: 5%;
     background-color: rgb(254, 254, 254, 0.95);
