@@ -265,7 +265,7 @@ section{
 .modal-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:start;
     border-radius: 5%;
     background-color: rgb(254, 254, 254, 0.95);
     margin: 15% auto; 
