@@ -301,7 +301,7 @@ section{
 }
 
 .modal-content > img{
-    width: 110%;
+    width: 140%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -311,7 +311,7 @@ section{
 .productDescreption{
     padding: 0;
     margin: 0;
-    transform: translateX(-5%);
+    transform: translateX(-10%);
 }
 
 .productDescreption > h1{
@@ -319,8 +319,8 @@ section{
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #101010;
-    font-size: 38px;
-    padding-top: 15%;
+    font-size: 36px;
+    padding-top: 20%;
 }
 
 #product1{
