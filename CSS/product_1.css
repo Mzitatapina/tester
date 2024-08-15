@@ -266,13 +266,13 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-radius: 25%;
+    border-radius: 15%;
     background-color: #fefefe;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
     width: 50%; 
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
