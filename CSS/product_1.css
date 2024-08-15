@@ -305,7 +305,7 @@ section{
     height: 100%;
     margin: 0;
     padding: 0;
-    align-items: start;
+    transform: scale(0.5, 1);
 }
 
 .productDescreption{
