@@ -279,6 +279,41 @@ section{
     transform: translateX(-20%);
 }
 
+.modal-content > h2{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    color: #101010;
+}
+
+.productDescreption > h1{
+    text-align: left;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    color: #101010;
+    font-size: 36px;
+    padding-top: 20%;
+}
+    
+
+#product1{
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    color: #545454;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-bottom: 10%;
+    line-height: 0;
+}
+
+.productDescreption > p{
+    text-align: left;
+    font-family: 'krub';
+    color:#545454;
+    font-size: 14px;
+    text-align: justify;
+}
+
 
 .footer{
     background-image: url(../IMAGES/footer.png);
