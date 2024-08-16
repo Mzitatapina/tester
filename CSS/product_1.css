@@ -289,7 +289,7 @@ section{
 
 .ModalButton > img{
     width: 100%;
-    height: 40%;
+    height: 80%;
     padding-top: 7%;
 }
 
@@ -298,8 +298,8 @@ section{
 }
 
 .modal-content > img{
-    width: 100%;
-    height: 80%;
+    width: 140%;
+    height: 100%;
     margin: 0;
     padding: 0;
     transform: translateX(-20%);
