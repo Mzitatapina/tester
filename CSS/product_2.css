@@ -279,7 +279,13 @@ section{
     transform: translateX(-20%);
 }
 
-.modal-content > h2{
+.image{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image > h2{
     text-align: center;
     font-family: 'Playfair Display';
     font-weight: 100;
