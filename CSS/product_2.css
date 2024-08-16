@@ -203,13 +203,13 @@ section{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .ModalButton{
-    width: 20%;
-    height: 60%;
+    width: 19%;
+    height: 50%;
     background-color: white;
     border-radius: 5%;
     border: none;
@@ -263,7 +263,7 @@ section{
 
 .ModalButton > img{
     width: 100%;
-    height: 80%;
+    height: 60%;
     padding-top: 7%;
 }
 
@@ -271,18 +271,19 @@ section{
     margin-bottom: 0;
 }
 
-.modal-content > img{
-    width: 140%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    transform: translateX(-20%);
-}
 
 .image{
     display: flex;
     flex-direction: row;
 
+}
+
+.image > img{
+    width: 140%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-20%);
 }
 
 .image > h2{
