@@ -69,7 +69,6 @@ header{
     border-bottom: 1px solid black;
     display: grid;
     grid-template-columns: 20% 80%;
-    
 }
 
 .logo{

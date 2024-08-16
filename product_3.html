@@ -7,20 +7,48 @@
     <link rel="stylesheet" href="CSS/product_3.css">
 </head>
 <body>
+    <div class="languagebarcover">
+        <div class="languagebar">
+          <a href="#"><p>GEO</p></a>
+          <a href="#"><p>ENG</p></a>
+        </div>
+    </div>
+
     <header>
         <img src="SVG/logo3.svg" alt="gurieli" class="logo">
         <img id="menuIcon" class="forMobile" src="SVG/menu.svg" alt="burger-menu">
         <nav id="menuBox"  class="menu-box">
+          <!--<img id="menuExit" class="exitMobile" src="SVG/exit.svg">--->
           <span id="menuExit" class="exitMobile">&times;</span>
          <ul>
             <li><a href="landing.html">Home</a></li>
-            <li><a href="#history">Our Story</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#export">Export</a></li>
-            <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="#">BRAND HISTORY</a></li>
+                    <li><a class="dropdowna" href="#">PLANTATIONS & RESOURCES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="product_1.html">Products</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a class="dropdowna" href="product_1.html">HOT BREW TEA</a>
+                      <ul class="dropdown-submenu">
+                        <li><a class="dropdowna" href="product_2.html">GURIELI CLASSIC</a></li>
+                        <li><a class="dropdowna" href="product_1.html">PREMIUM: PRINCE GURIELI</a></li>
+                        <li><a class="dropdowna" href="#">SPECIAL EDITION</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdowna" href="product_3.html">ICED TEA</a></li>
+                  </ul>
+                </li>
+                <li><a href="#export">Export</a></li>
+                <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
     </header>
+
 
     <div class="ProductBackground2">
         
@@ -28,66 +56,95 @@
 
     <section>
         <h1 class="title1">Iced Tea</h1>
-        <p class="title2">gurieli product gurieli productsgurieli products gurieli products gurieli products gurieli products gurieli productsgurieli productsgurieli productsgurieli products gurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli products gurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsvgurieli productsgurieli productsgurieli productsgurieli productsgurieli productsgurieli productss</p>
+        <p class="AboutProduct"></p>
         <div class="products">
             <button id="openModalBtn1" class="ModalButton">
                 <img src="IMAGES/product14.png" alt="GURIELI">
                 <h4>Traditional Black</h4>
+                <p>Loose leaf tea, vol. 80 gr</p>
             </button>
             <div id="productModal1" class="modal">
                 <div class="modal-content">
                     <img src="IMAGES/product14.png" alt="GURIELI">
                     <div class="productDescreption">
-                        <h3>Traditional Black</h3>
-                        <p id="product14"></p>
+                        <span class="closeBtn">&times;</span>
+                        <h1>Traditional Black</h1>
+                        <h2 id="product1">Iced TEa</h2>
+                        <p>Black-brownish, well-stranded tea leaves of Prince Gurieli have refined, soft taste, well-balanced astringency and sweetness. The drink is pure, has intense color with floral, full bouquet flavor. </p>
+                        <h2>Loose leaf tea, Vol. 100 gr</h2>
                     </div>
-                    <span class="closeBtn">&times;</span>
                 </div>
             </div>
     
             <button id="openModalBtn2" class="ModalButton">
                 <img src="IMAGES/product15.png" alt="GURIELI">
-                <h4>Traditional Green</h4>
+                <h4>Traditional Black</h4>
+                <p>Loose leaf tea, vol. 80 gr</p>
             </button>
             <div id="productModal2" class="modal">
                 <div class="modal-content">
                     <img src="IMAGES/product15.png" alt="GURIELI">
                     <div class="productDescreption">
-                        <h3>Traditional Green</h3>
-                        <p id="product15"></p>
+                        <span class="closeBtn">&times;</span>
+                        <h1>Traditional Black</h1>
+                        <h2 id="product1">Iced TEa</h2>
+                        <p>Black-brownish, well-stranded tea leaves of Prince Gurieli have refined, soft taste, well-balanced astringency and sweetness. The drink is pure, has intense color with floral, full bouquet flavor. </p>
+                        <h2>Loose leaf tea, Vol. 100 gr</h2>
                     </div>
-                    <span class="closeBtn">&times;</span>
                 </div>
             </div>
     
             <button id="openModalBtn3" class="ModalButton">
                 <img src="IMAGES/product16.png" alt="GURIELI">
-                <h4>Alphine berry</h4>
+                <h4>Traditional Black</h4>
+                <p>Loose leaf tea, vol. 80 gr</p>
             </button>
             <div id="productModal3" class="modal">
                 <div class="modal-content">
                     <img src="IMAGES/product16.png" alt="GURIELI">
                     <div class="productDescreption">
-                        <h3>Black & Bergamot</h3>
-                        <p id="product16">Product description goes here...</p>
+                        <span class="closeBtn">&times;</span>
+                        <h1>Traditional Black</h1>
+                        <h2 id="product1">Iced TEa</h2>
+                        <p>Black-brownish, well-stranded tea leaves of Prince Gurieli have refined, soft taste, well-balanced astringency and sweetness. The drink is pure, has intense color with floral, full bouquet flavor. </p>
+                        <h2>Loose leaf tea, Vol. 100 gr</h2>
                     </div>
-                    <span class="closeBtn">&times;</span>
                 </div>
             </div>
     
             <button id="openModalBtn4" class="ModalButton">
                 <img src="IMAGES/product17.png" alt="GURIELI">
-                <h4>Georgian Berry</h4>
+                <h4>Traditional Black</h4>
+                <p>Loose leaf tea, vol. 80 gr</p>
             </button>
             <div id="productModal4" class="modal">
                 <div class="modal-content">
                     <img src="IMAGES/product17.png" alt="GURIELI">
                     <div class="productDescreption">
-                        <h3>Early Grey</h4>
-                        <p id="product17">Product description goes here...</p>
+                        <span class="closeBtn">&times;</span>
+                        <h1>Traditional Black</h1>
+                        <h2 id="product1">Iced TEa</h2>
+                        <p>Black-brownish, well-stranded tea leaves of Prince Gurieli have refined, soft taste, well-balanced astringency and sweetness. The drink is pure, has intense color with floral, full bouquet flavor. </p>
+                        <h2>Loose leaf tea, Vol. 100 gr</h2>
                     </div>
-                    <span class="closeBtn">&times;</span>
                 </div>
+
+                <button id="openModalBtn4" class="ModalButton">
+                    <img src="IMAGES/product18.png" alt="GURIELI">
+                    <h4>Traditional Black</h4>
+                    <p>Loose leaf tea, vol. 80 gr</p>
+                </button>
+                <div id="productModal4" class="modal">
+                    <div class="modal-content">
+                        <img src="IMAGES/product18.jpg" alt="GURIELI">
+                        <div class="productDescreption">
+                            <span class="closeBtn">&times;</span>
+                            <h1>Traditional Black</h1>
+                            <h2 id="product1">Iced TEa</h2>
+                            <p>Black-brownish, well-stranded tea leaves of Prince Gurieli have refined, soft taste, well-balanced astringency and sweetness. The drink is pure, has intense color with floral, full bouquet flavor. </p>
+                            <h2>Loose leaf tea, Vol. 100 gr</h2>
+                        </div>
+                    </div>
             </div>
 
             
