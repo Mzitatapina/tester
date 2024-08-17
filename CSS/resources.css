@@ -116,3 +116,45 @@ ul li:hover > .dropdown {
 .dropdown li:last-child, .dropdown-submenu li:last-child {
 	border-bottom: none;
 }
+
+.firstpart{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    box-sizing: border-box;
+}
+
+.textnumbers{
+    display: grid;
+    grid-template-rows: 45% 40% 15%;
+    box-sizing: border-box;
+}
+
+.text{
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.p1, .p2{
+    font-family: 'krub';
+    color: #545454;
+}
+
+.image1 > img{
+    position: relative;
+    align-items: center;
+}
+
+.image1 > h1{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Agraham';
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.numb{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
