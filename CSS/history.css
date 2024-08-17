@@ -140,11 +140,13 @@ h1{
 }
 
 .image2{
-    height: 15vh;
+    height: 20vh;
 }
 
 .image2 > img{
     position: absolute;
+    box-sizing: border-box;
+    height: 20vh;
 }
 
 .image2 > p{
