@@ -130,7 +130,9 @@ h1{
 }
 
 .text1{
-    transform: translateY(10%);
+    margin-left: 15%;
+    margin-right: 15%;
+    transform: translateY(30%);
 }
 
 .text1 > p{
@@ -138,6 +140,7 @@ h1{
     column-gap: 5%;
     font-family: 'krub';
     color: #545454;
+    text-align: justify;
 }
 
 .image2{
@@ -155,12 +158,23 @@ h1{
 }
 
 .p1{
-    padding-top: 30%;
+    padding-top: 10%;
     padding-left: 55%;
+    text-align: justify;
+    margin-right: 15%;
 }
 
 .p2{
     padding-left: 55%;
+    text-align: justify;
+    margin-right: 15%;
+}
+.text2{
+    column-count: 2;
+    column-gap: 5%;
+    font-family: 'krub';
+    color: #545454;
+    text-align: justify;
 }
 
 .image3 > img{
