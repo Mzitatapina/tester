@@ -153,6 +153,10 @@ h1{
     padding-left: 50%;
 }
 
+.p2{
+    padding-left: 50%;
+}
+
 .text2 > p{
     text-align: justify;
     column-count: 2;
@@ -163,7 +167,7 @@ h1{
     color: #545454;
 }
 
-.image3{
+.image3 > img{
     width: 100vw;
 }
 
