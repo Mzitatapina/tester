@@ -140,7 +140,7 @@ h1{
 }
 
 .image2{
-    height: 20%;
+    height: 25%;
     width: 100%;
 }
 
@@ -180,7 +180,13 @@ h1{
     color: #545454;
 }
 
+.image3{
+    height: 30%;
+    width: 100%;
+}
+
 .image3 > img{
+    height: 100%;
     width: 100vw;
 }
 
