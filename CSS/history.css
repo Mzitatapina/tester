@@ -146,9 +146,11 @@ h1{
     position: relative;
     font-family: 'krub';
     color:#FFFFFF;
-    padding-top: 60%;
-    padding-left: 60%;
+}
 
+.p1{
+    padding-top: 60%;
+    padding-left: 50%;
 }
 
 .text2 > p{
@@ -159,6 +161,10 @@ h1{
     margin-right: 20%;
     font-family: 'krub';
     color: #545454;
+}
+
+.image3{
+    width: 100vw;
 }
 
 .footer{
