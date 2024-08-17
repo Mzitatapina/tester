@@ -132,7 +132,7 @@ h1{
 .text1{
     margin-left: 15%;
     margin-right: 15%;
-    transform: translateY(30%);
+    transform: translateY(50%);
 }
 
 .text1 > p{
