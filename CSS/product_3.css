@@ -209,7 +209,7 @@ section{
 }
 
 .ModalButton{
-    width: 10%;
+    width: 20%;
     height: 60%;
     background-color: white;
     border-radius: 5%;
@@ -292,7 +292,7 @@ section{
     font-weight: 100;
     color: #101010;
     font-size: 36px;
-    padding-top: 20%;
+    padding-top: 10%;
 }
     
 
