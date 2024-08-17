@@ -158,7 +158,7 @@ h1{
 }
 
 .p1{
-    padding-top: 50%;
+    padding-top: 10%;
     padding-left: 50%;
     padding-right: 10%;
     text-align: justify;
@@ -193,7 +193,6 @@ h1{
 .footer{
     background-image: url(../IMAGES/footer.png);
     position: relative;
-    height: 20vh;
     width: 100vw;
     background-size: cover;
     background-position:bottom;
