@@ -157,11 +157,13 @@ h1{
     padding-top: 60%;
     padding-left: 50%;
     padding-right: 10%;
+    text-align: justify;
 }
 
 .p2{
     padding-left: 50%;
     padding-right: 10%;
+    text-align: justify;
 }
 
 .text2 > p{
