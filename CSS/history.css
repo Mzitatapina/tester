@@ -129,9 +129,37 @@ h1{
     font-weight: 100;
 }
 
+.text1{
+    transform: translateY(10%);
+}
+
+.text1 > p{
+    column-count: 2;
+    column-gap: 5%;
+    font-family: 'krub';
+    color: #545454;
+}
+
 .image2 > img{
-    height: 20%;
-    width: 100%;
+    position: absolute;
+}
+
+.image2 > p{
+    position: relative;
+    color:#FFFFFF;
+}
+
+.p1{
+    padding-top: 30%;
+    padding-left: 55%;
+}
+
+.p2{
+    padding-left: 55%;
+}
+
+.image3 > img{
+    width: 100vw;
 }
 
 .footer{
