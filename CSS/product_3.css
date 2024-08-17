@@ -274,14 +274,14 @@ section{
 
 .modal-content > img{
     width: 100%;
-    height: 80%;
+    height: 120%;
     margin: 0;
     padding: 0;
     transform: translateX(-20%);
 }
 
 .productDescreption{
-    padding: 0;
+    padding-top: 5%;
     margin: 0;
     transform: translateX(-10%);
 }
