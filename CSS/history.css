@@ -145,6 +145,7 @@ h1{
 .footer{
     background-image: url(../IMAGES/footer.png);
     position: relative;
+    height: 30vh;
     width: 100vw;
     background-size: cover;
     background-position:bottom;
