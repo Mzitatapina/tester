@@ -141,15 +141,15 @@ h1{
 }
 
 .image2{
-    position: absolute;
+    position: relative;
 }
 
 .image2 > img{
-    position: relative;
+    position: absolute;
 }
 
 .image2 > p{
-    position: relative;
+    position: absolute;
     color:#FFFFFF;
     z-index: 100;
 }
