@@ -145,7 +145,7 @@ h1{
 }
 
 .image2 > img{
-    position: absolute;
+    position: relative;
 }
 
 .image2 > p{
@@ -154,7 +154,7 @@ h1{
     z-index: 100;
 }
 
-/*.p1{
+.p1{
     padding-top: 30%;
     padding-left: 55%;
 }
@@ -165,7 +165,7 @@ h1{
 
 .image3 > img{
     width: 100vw;
-}*/
+}
 
 .footer{
     background-image: url(../IMAGES/footer.png);
