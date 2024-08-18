@@ -193,4 +193,31 @@ ul li:hover > .dropdown {
 .secondpart > img{
     max-width: 100%;
     max-height: 100%;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+}
+
+.info > .info1 > h1{
+    font-family: 'Agraham';
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.info > .info1 > p{
+    font-family: 'krub';
+    color: #FFFFFF;
+}
+
+.info > .info2 > h1{
+    font-family: 'Agraham';
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.info > .info2 > p{
+    font-family: 'krub';
+    color: #FFFFFF;
 }
