@@ -188,13 +188,6 @@ h1{
     margin: 5% auto;
 }
 
-.text2 > p::after{
-    content: '';
-    display: block;
-    height: 40em; 
-    column-span: all;
-}
-
 .image3 > img{
     width: 100vw;
     margin: 0;
