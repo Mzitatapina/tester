@@ -158,13 +158,15 @@ h1{
 }
 
 .p1{
-    padding-top: 10%;
+    font-family: 'krub';
+    padding-top: 30%;
     padding-left: 55%;
     text-align: justify;
     margin-right: 15%;
 }
 
 .p2{
+    font-family: 'krub';
     padding-left: 55%;
     text-align: justify;
     margin-right: 15%;
@@ -181,10 +183,14 @@ h1{
     font-family: 'krub';
     color: #545454;
     text-align: justify;
+    margin: 5% auto;
 }
 
 .image3 > img{
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    /*transform: translateY(2%);*/
 }
 
 .footer{
