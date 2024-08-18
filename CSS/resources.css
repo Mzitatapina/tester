@@ -197,32 +197,29 @@ ul li:hover > .dropdown {
     position: relative;
 }
 
-.info{
-    position: absolute;
-}
 
 .info1, .info2{
     position: absolute;
 }
 
-.info > .info1 > h1{
+.info1 > h1{
     font-family: 'Agraham';
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.info > .info1 > p{
+.info1 > p{
     font-family: 'krub';
     color: #FFFFFF;
 }
 
-.info > .info2 > h1{
+.info2 > h1{
     font-family: 'Agraham';
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.info > .info2 > p{
+.info2 > p{
     font-family: 'krub';
     color: #FFFFFF;
 }
