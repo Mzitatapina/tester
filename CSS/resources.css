@@ -177,8 +177,8 @@ ul li:hover > .dropdown {
 }
 
 .statistics{
-    align-items: center;
-    justify-content: center;
+    justify-self: center; /* Horizontally center each item */
+    align-self: center;   /* Vertically center each item */
 }
 
 .statistics > h1{
