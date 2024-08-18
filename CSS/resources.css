@@ -188,6 +188,7 @@ ul li:hover > .dropdown {
 
 .statistics > p{
     font-family: 'Albertus Medium';
+    color: #545454;
 }
 
 .secondpart > img{
@@ -197,6 +198,10 @@ ul li:hover > .dropdown {
 }
 
 .info{
+    position: absolute;
+}
+
+.info1, .info2{
     position: absolute;
 }
 
