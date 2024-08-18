@@ -166,20 +166,26 @@ ul li:hover > .dropdown {
     text-transform: capitalize;
     color: #FFFFFF;
     text-align: center;
-    padding-left: 50%;
-    padding-top: 50%;
+    padding-left: 45%;
+    padding-top: 6%;
 }
 
 .numb{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
+    justify-content: center;
 }
 
-.numb > h1{
+.statistics{
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics > h1{
     font-family: 'Lora';
 }
 
-.numb > p{
+.statistics > p{
     font-family: 'Albertus Medium';
 }
