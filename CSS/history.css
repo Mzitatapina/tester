@@ -191,7 +191,7 @@ h1{
 .text2 > p::after{
     content: '';
     display: block;
-    height: 20em; /* Adjust this value based on how much more text you want in the second column */
+    height: 40em; 
     column-span: all;
 }
 
