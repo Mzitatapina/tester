@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @font-face {
     font-family: 'Albertus Medium';
     font-style: normal;
@@ -120,6 +121,7 @@ ul li:hover > .dropdown {
 .firstpart{
     display: grid;
     grid-template-columns: 15% 85%;
+    /*gap: 5%;*/
     box-sizing: border-box;
 }
 
@@ -136,18 +138,25 @@ ul li:hover > .dropdown {
 }
 
 .text{
-    margin-left: 22%;
-    margin-right: 22%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .p1, .p2{
     font-family: 'krub';
     color: #545454;
+    text-align: center;
+}
+
+.image1{
+    position: relative;
+
 }
 
 .image1 > img{
     position: relative;
     align-items: center;
+    margin: 5% 7%;
 }
 
 .image1 > h1{
@@ -162,5 +171,13 @@ ul li:hover > .dropdown {
 .numb{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
+    align-items: center;
 }
 
+.numb > h1{
+    font-family: 'Lora';
+}
+
+.numb > p{
+    font-family: 'Albertus Medium';
+}
