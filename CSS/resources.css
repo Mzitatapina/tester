@@ -179,6 +179,7 @@ ul li:hover > .dropdown {
 .statistics{
     justify-self: center; /* Horizontally center each item */
     align-self: center;   /* Vertically center each item */
+    text-align: center;
 }
 
 .statistics > h1{
@@ -187,4 +188,9 @@ ul li:hover > .dropdown {
 
 .statistics > p{
     font-family: 'Albertus Medium';
+}
+
+.secondpart > img{
+    max-width: 100%;
+    max-height: 100%;
 }
