@@ -190,6 +190,14 @@ ul li:hover > .dropdown {
     overflow: hidden;
 }
 
+.scroll{
+    display: block;
+    margin-left: 50%;
+    margin-top: 7%;
+    transition: transform 1s ease-in-out;
+}
+
+
 section{
     background-color: #EDEDEB;
     padding-top: 2%;
