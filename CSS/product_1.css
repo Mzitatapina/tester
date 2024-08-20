@@ -196,11 +196,10 @@ ul li:hover > .dropdown {
     transition: transform 1s ease-in-out;
     width: 1%;
     height: 1%;
-}
-
-.scroll > img{
     transform: translateY(2%);
 }
+
+
 
 
 section{
