@@ -63,7 +63,7 @@ p{
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    height: 97%;
+    height: 101.5%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -196,7 +196,7 @@ ul li:hover > .dropdown {
     transition: transform 1s ease-in-out;
     width: 1%;
     height: 1%;
-    transform: translateY(2%);
+    transform: translateY(4%);
 }
 
 
