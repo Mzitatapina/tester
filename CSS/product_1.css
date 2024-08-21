@@ -198,13 +198,9 @@ ul li:hover > .dropdown {
     transition: transform 1s ease-in-out;
     width: 1%;
     height: 1%;
-    transform: translateY(4%);
+    transform: translateY(8%);
 }
 
-.scroll > img{
-    width: 80%;
-    height: 80%;
-}
 
 
 section{
