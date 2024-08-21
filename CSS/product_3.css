@@ -176,6 +176,15 @@ ul li:hover > .dropdown {
     overflow: hidden;
 }
 
+.scroll{
+    display: block;
+    margin-left: 50%;
+    transition: transform 1s ease-in-out;
+    width: 1%;
+    height: 1%;
+    transform: translateY(8%);
+}
+
 section{
     background-color: #EDEDEB;
     padding-top: 2%;
