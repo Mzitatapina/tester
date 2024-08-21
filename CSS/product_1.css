@@ -201,7 +201,10 @@ ul li:hover > .dropdown {
     transform: translateY(4%);
 }
 
-
+.scroll > img{
+    width: 80%;
+    height: 80%;
+}
 
 
 section{
