@@ -165,14 +165,17 @@ ul li:hover > .dropdown {
 }
 
 
-.ProductBackground2{
-    background-image: url(../IMAGES/ProductBackground3.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+.ProductBackground{
+    height: 20%;
+    width: 100%;   
+}
+
+.ProductBackground img{
+    box-sizing: border-box;
+    height: 33em;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 section{
