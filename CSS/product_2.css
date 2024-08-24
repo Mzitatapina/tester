@@ -334,6 +334,12 @@ section{
     text-align: justify;
 }
 
+.ProductAssort{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: left;
+}
+
 
 .footer{
     background-image: url(../IMAGES/footer.png);
