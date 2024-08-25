@@ -227,14 +227,13 @@ ul li:hover > .dropdown {
 }
 
 .products{
+    background-color: #EDEDEB;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
 }
 
 .products > img{
-    background-color: EDEDEB;
-    width: 10%;
-    max-height: 80%;
+    width: 70%;
+    max-height: 70%;
     object-fit: contain;
 }
