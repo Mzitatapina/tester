@@ -366,6 +366,7 @@ section{
     grid-template-columns: 33.33% 33.33% 33.33%;
     justify-items: start; /* Aligns the images to the left */
     align-items: end; /* Positions the images at the bottom */
+    transform: translateX(-10%);
 }
 
 .first, .second, .third{
