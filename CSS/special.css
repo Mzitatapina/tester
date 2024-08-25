@@ -233,7 +233,7 @@ ul li:hover > .dropdown {
 }
 
 .products > img{
-    width: 70%;
-    max-height: 70%;
+    width: 7%;
+    max-height: 40%;
     object-fit: contain;
 }
