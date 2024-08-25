@@ -251,6 +251,13 @@ ul li:hover > .dropdown {
     z-index: 100;
     display: grid;
     grid-template-columns: 50% 50%;
+    padding-bottom: 3%;
+}
+
+.text p{
+    font-family: 'krub';
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .products{
@@ -260,7 +267,8 @@ ul li:hover > .dropdown {
 }
 
 .products > img{
-    width: 7%;
-    max-height: 40%;
+    width: 10%;
+    max-height: 80%;
     object-fit: contain;
+    padding-top: 3%;
 }
