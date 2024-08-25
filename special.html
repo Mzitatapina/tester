@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/special.css">
+</head>
+<body>
+    <header>
+        <img src="SVG/logo3.svg" alt="gurieli" class="logo">
+        <img id="menuIcon" class="forMobile" src="SVG/menu.svg" alt="burger-menu">
+        <nav id="menuBox"  class="menu-box">
+          <!--<img id="menuExit" class="exitMobile" src="SVG/exit.svg">--->
+          <span id="menuExit" class="exitMobile">&times;</span>
+         <ul>
+            <li><a href="landing.html">Home</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <ul class="dropdown">
+                    <li><a class="dropdowna" href="#">BRAND HISTORY</a></li>
+                    <li><a class="dropdowna" href="#">PLANTATIONS & RESOURCES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="product_1.html">Products</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a class="dropdowna" href="product_1.html">HOT BREW TEA</a>
+                      <ul class="dropdown-submenu">
+                        <li><a class="dropdowna" href="product_2.html">GURIELI CLASSIC</a></li>
+                        <li><a class="dropdowna" href="product_1.html">PREMIUM: PRINCE GURIELI</a></li>
+                        <li><a class="dropdowna" href="special.html">SPECIAL EDITION</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdowna" href="product_3.html">ICED TEA</a></li>
+                  </ul>
+                </li>
+                <li><a href="#export">Export</a></li>
+                <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="ProductBackground">
+        <img src="IMAGES/ProductBackground1.png" alt="Gurieli">
+        <div class="cover" ></div>
+    </div>
+    <div class="slider-container">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="slider">
+          <div class="slide active">
+                <div class="product">
+                    <img src="IMAGES/product1.png" alt="Gurieli">
+                    <h1>TRADITIONAL BLACK</h1>
+                </div>
+                <div class="product">
+                    <img src="IMAGES/product2.png" alt="Gurieli">
+                    <p>TRADITIONAL GREEN </p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="product"><img src="IMAGES/product5.png" alt="Gurieli"><p>TRADITIONAL BLACK</p></div>
+                <div class="product"><img src="IMAGES/product6.png" alt="Gurieli"><p>TRADITIONAL GREEN </p></div>
+            </div>
+          
+        </div>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+        <div class="text">
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="products">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+        <img src="" alt="Gurieli Special">
+    </div>
+    
+
+    <script src="JS/app.js"></script>
+</body>
+</html>
