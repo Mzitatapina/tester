@@ -334,7 +334,7 @@ section{
     text-align: justify;
 }
 
-.ProductAssort{
+/*.ProductAssort{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     justify-content: left;
@@ -359,6 +359,30 @@ section{
     max-height: 90%;
     width: 100%;
     max-width: 100%;
+}*/
+
+.ProductAssort{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-items: start; /* Aligns the images to the left */
+    align-items: end; /* Positions the images at the bottom */
+}
+
+.first, .second, .third{
+    width: 100%;
+    object-fit: contain; /* Ensures the image respects the aspect ratio */
+}
+
+.first{
+    max-height: 100%; /* Resizes the image to the height of its container */
+}
+
+.second{
+    max-height: 80%;
+}
+
+.third{
+    max-height: 90%;
 }
 
 .footer{
