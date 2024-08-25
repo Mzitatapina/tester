@@ -154,6 +154,11 @@ ul li:hover > .dropdown {
     left: 0;
 }
 
+.product > img{
+    max-width: 25%;
+    max-height: 40%;
+}
+
 .text{
     position: absolute;
     z-index: 3;
