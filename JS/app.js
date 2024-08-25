@@ -1,22 +1,4 @@
 
-//burger menue show and hide
-let menuBox = document.getElementById("menuBox");
-let menuIcon = document.getElementById("menuIcon");
-let menuExit = document.getElementById("menuExit");
-
-
-menuIcon.onclick = function (){
-    menuBox.classList.toggle("open-menu");
-    
-}
-
-menuExit.onclick = function(){
-    menuBox.classList.remove("open-menu");
-}
-
-
-
-
 //product slider on display app version
 let currentSlide = 0;
 
