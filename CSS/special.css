@@ -224,7 +224,9 @@ ul li:hover > .dropdown {
 
 .text{
     position: absolute;
-    z-index: 3;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .products{
