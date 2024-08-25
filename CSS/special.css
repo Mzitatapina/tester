@@ -55,7 +55,7 @@ header{
 }
 
 nav{
-    padding-left: 60%;
+    padding-left: 35%;
 }
 
 ul{
@@ -207,15 +207,16 @@ ul li:hover > .dropdown {
 .product1 img {
     width: 100%;
 }
+
 .product2 img {
     width: 100%;
 }
 
-.product1 p{
-    font-family: 'Albertus Medium';
+.productdescription{
+    display: inline-block;
 }
 
-.product2 p{
+.productdescription p{
     font-family: 'Albertus Medium';
 }
 
