@@ -153,3 +153,9 @@ ul li:hover > .dropdown {
     justify-content: space-around;
 }
 
+.products > img{
+    background-color: EDEDEB;
+    width: 10%;
+    max-height: 80%;
+    object-fit: contain;
+}
