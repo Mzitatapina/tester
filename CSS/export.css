@@ -220,7 +220,7 @@ section{
 .countries{
     display: flex;
     justify-content: space-around;
-    gap: 5%; 
+    gap: 1%; 
     justify-content: space-between; 
     align-items: center; 
 }
@@ -229,6 +229,7 @@ section{
 .countries > img{
     position: absolute;
     max-width: 100%;
+    padding-top: 1%;
 }
 
 .experter{
