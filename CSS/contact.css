@@ -208,9 +208,9 @@ iframe{
 
 .SocialMedia img{
     display: block;
-    height: 10%;
-    width: 10%;
-    align-items: center;
+    height: 8%;
+    width: 8%;
+    padding: 5% 10%;
 }
 
 p{
