@@ -217,6 +217,27 @@ section{
     transform: translateY(-30%);
 }
 
+.countries{
+    display: flex;
+    justify-content: space-around;
+}
+
+.countries > div{
+    display: inline-block;
+}
+
+h3{
+    font-family: 'Albertus Medium';
+    font-weight: 900;
+    color: #535353;
+    text-align: center;
+}
+
+.countries > p{
+    color: #7E7E7E;
+    text-align: center;
+}
+
 h1{
     font-family: 'Playfair Display';
     color: #424242;
