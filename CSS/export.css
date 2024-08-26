@@ -20,7 +20,7 @@ html, body{
 
 body{
     display: grid;
-    grid-template-rows: 5% 75% 20%;
+    grid-template-rows: 10% 90%;
 }
 
 .languagebarcover{
@@ -163,8 +163,12 @@ section{
 .ruka{
     position: absolute;
     z-index: 15;
-    max-width: 80%;
-    max-height: 50%;
+    max-width: 150%;
+    max-height: 100%;
+    margin-left: 20%;
+    margin-top: 0;
+    padding-top: 0;
+    transform: translateY(-15%);
 }
 
 .logo1, .logo2, .logo3, .logo4, .logo5{
@@ -175,23 +179,28 @@ section{
 }
 
 .logo1{
-    margin-top: 10%;
-    margin-left: 15%;
+    margin-top: 5%;
+    margin-left: 65%;
 }
 
 .logo2{
-    margin-top: 5%;
-    margin-left: 30%;
+    margin-top: 3%;
+    margin-left: 57%;
 }
 
 .logo3{
-    margin-top: 40%;
-    margin-left: 70%;
+    margin-top: 10%;
+    margin-left: 50%;
 }
 
 .logo4{
-    margin-top: 70%;
-    margin-left: 5%;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+.logo5{
+    margin-top: 7%;
+    margin-left: 30%;
 }
 
 .text{
