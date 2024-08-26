@@ -208,8 +208,9 @@ ul li:hover > .dropdown {
     box-sizing: border-box;
 }
 
-.container img {
-    width: 100%;
+.container{
+    margin: 0;
+    padding: 0;
 }
 
 .productdescription{
@@ -228,15 +229,19 @@ ul li:hover > .dropdown {
 .cover1{
     background-color: rgb(46,46,46, 0.8);
     border-radius: 0 25% 0 0;
-    width: 150%;
-    height: 50%;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 10%;
 }
 
 .cover2{
     background-color: rgb(46,46,46, 0.8);
     border-radius: 25% 0 0 0;
-    width: 150%;
-    height: 50%;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 10%;
 }
 
 .productdescription p{
