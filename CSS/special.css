@@ -17,11 +17,6 @@ html, body{
     overflow-x: hidden;
 }
 
-body{
-    display: grid;
-    grid-template-rows: 5% 75% 20%;
-}
-
 h1{
     font-family: 'Playfair display';
     text-transform: uppercase;
@@ -174,7 +169,6 @@ ul li:hover > .dropdown {
 .sliderbackground{
     position: absolute;
     max-width: 100vw;
-    min-height: 50%;
 }
 
 .slider {
