@@ -12,8 +12,8 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    min-height: 100vh;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
     background-color: #EDEDEB;
 }
@@ -64,15 +64,16 @@ header{
 }
 
 .logo{
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
     vertical-align: middle;
-    padding-top: 2.5%;
+    padding-top: 5%;
     padding-left: 40%;
 }
 
 nav{
-    padding-left: 60%;
+    padding-left: 30%;
+    padding-top: 1%;
 }
 
 ul{
@@ -162,6 +163,7 @@ section{
 
 section > img{
     position: absolute;
+    z-index: 10;
     max-width: 100vw;
     min-height: 100%;
 }
