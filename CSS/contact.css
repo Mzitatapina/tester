@@ -176,13 +176,19 @@ section{
     display: grid;
     grid-template-columns: 40% 40% 20%;
     padding: 5% 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/background2.svg);
     position: relative;
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
 }
 
 .adress{
     display: inline-block;
-    position: absolute;
-    z-index: 2;
 }
 
 .adress1{
@@ -193,11 +199,6 @@ section{
 .line1, .line2, .line3, .adress2{
     display: grid;
     grid-template-columns: 10% 90%;
-}
-
-.map, .SocialMedia{
-    position: absolute;
-    z-index: 3;
 }
 
 .SocialMedia img{
