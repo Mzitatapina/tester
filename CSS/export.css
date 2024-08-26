@@ -225,18 +225,22 @@ section{
     align-items: center; 
 }
 
-.experter{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    z-index: 50;
-}
 
 .countries > img{
     position: absolute;
+    max-width: 100%;
 }
 
+.experter{
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+    padding-top: 5%;
+}
 
+.experter > img{
+    width: 50%;
+}
 
 h3{
     font-family: 'Albertus Medium';
