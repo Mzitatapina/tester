@@ -174,6 +174,7 @@ ul li:hover > .dropdown {
 .sliderbackground{
     position: absolute;
     max-width: 100vw;
+    min-height: 100%;
 }
 
 .slider {
@@ -264,13 +265,12 @@ ul li:hover > .dropdown {
     z-index: 100;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-bottom: 3%;
 }
 
 .text p{
     font-family: 'krub';
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .p1{
@@ -284,11 +284,13 @@ ul li:hover > .dropdown {
     background-color: #EDEDEB;
     display: flex;
     justify-content: space-around;
+    padding: 0 5%;
 }
 
 .products > img{
-    width: 10%;
+    width: 15%;
     max-height: 80%;
     object-fit: contain;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
