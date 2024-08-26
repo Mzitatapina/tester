@@ -243,14 +243,9 @@ ul li:hover > .dropdown {
     height: 100%;
 }
 
-.cover1 p{
+.productdescription p{
     font-family: 'Albertus Medium';
 }
-
-.cover2 p{
-    font-family: 'Albertus Medium';
-}
-
 
 
 .prev, .next {
