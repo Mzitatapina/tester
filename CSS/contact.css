@@ -201,6 +201,11 @@ section{
     grid-template-columns: 10% 90%;
 }
 
+iframe{
+    max-width: 100%;
+    border: 1px solid;
+}
+
 .SocialMedia img{
     display: block;
     height: 10%;
