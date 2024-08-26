@@ -33,7 +33,11 @@ h2{
     font-family: 'Pinyon Script';
     text-transform: capitalize;
     color: #FFFFFF;
-    margin-bottom: 5%;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 30%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 p{
@@ -192,14 +196,14 @@ ul li:hover > .dropdown {
 
 .product1 {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     text-align: center;
     box-sizing: border-box;
 }
 
 .product2 {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     text-align: center;
     box-sizing: border-box;
 }
@@ -214,10 +218,19 @@ ul li:hover > .dropdown {
 
 .productdescription{
     display: inline-block;
+    padding-top: 5%;
 }
 
 .productdescription p{
     font-family: 'Albertus Medium';
+}
+
+#description1{
+    text-align: left;
+}
+
+#description2{
+    text-align: right;
 }
 
 .prev, .next {
