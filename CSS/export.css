@@ -20,7 +20,7 @@ html, body{
 
 body{
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 18% 82%;
 }
 
 .languagebarcover{
@@ -214,6 +214,7 @@ section{
     z-index: 10;
     max-width: 100vw;
     min-height: 100%;
+    transform: translateY(-30%);
 }
 
 h1{
