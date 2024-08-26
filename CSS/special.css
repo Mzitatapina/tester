@@ -188,7 +188,7 @@ ul li:hover > .dropdown {
 .slide {
     display: flex;
     min-width: 100%;
-    padding: 10%;
+    padding: 20% 10% 5% 10%;
     box-sizing: border-box;
     justify-content: space-between;
 }
@@ -221,10 +221,6 @@ ul li:hover > .dropdown {
     padding-top: 5%;
 }
 
-.productdescription p{
-    font-family: 'Albertus Medium';
-}
-
 #description1{
     text-align: left;
 }
@@ -232,6 +228,30 @@ ul li:hover > .dropdown {
 #description2{
     text-align: right;
 }
+
+.cover1{
+    background-color: rgb(46,46,46, 0.8);
+    border-radius: 0 25% 0 0;
+    width: 150%;
+    height: 100%;
+}
+
+.cover2{
+    background-color: rgb(46,46,46, 0.8);
+    border-radius: 25% 0 0 0;
+    width: 150%;
+    height: 100%;
+}
+
+.cover1 p{
+    font-family: 'Albertus Medium';
+}
+
+.cover2 p{
+    font-family: 'Albertus Medium';
+}
+
+
 
 .prev, .next {
     position: absolute;
