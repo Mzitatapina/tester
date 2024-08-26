@@ -17,6 +17,11 @@ html, body{
     overflow-x: hidden;
 }
 
+.body{
+    display: grid;
+    grid-template-rows: 5% 75% 20%;
+}
+
 h1{
     font-family: 'Playfair display';
     text-transform: uppercase;
@@ -264,8 +269,15 @@ ul li:hover > .dropdown {
 
 .text p{
     font-family: 'krub';
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: right;
 }
 
 .products{
