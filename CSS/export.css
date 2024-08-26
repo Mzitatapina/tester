@@ -222,7 +222,7 @@ section{
     justify-content: space-around;
 }
 
-.countries > div{
+.experter{
     display: inline-block;
     align-items: center;
     position: absolute;
@@ -230,7 +230,7 @@ section{
 }
 
 .countries > img{
-    position: relative;
+    position: absolute;
 }
 
 
@@ -241,7 +241,7 @@ h3{
     font-weight: 900;
     color: #535353;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }
