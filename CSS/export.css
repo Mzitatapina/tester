@@ -20,7 +20,7 @@ html, body{
 
 body{
     display: grid;
-    grid-template-rows: 18% 82%;
+    grid-template-rows: 10% 90%;
 }
 
 .languagebarcover{
@@ -64,8 +64,8 @@ header{
 }
 
 .logo{
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
     vertical-align: middle;
     padding-top: 2%;
     padding-left: 40%;
@@ -224,18 +224,34 @@ section{
 
 .countries > div{
     display: inline-block;
+    align-items: center;
+    position: absolute;
+    z-index: 50;
 }
+
+.countries > img{
+    position: relative;
+}
+
+
 
 h3{
     font-family: 'Albertus Medium';
+    text-transform: uppercase;
     font-weight: 900;
     color: #535353;
     text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
 .countries > p{
     color: #7E7E7E;
     text-align: center;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
