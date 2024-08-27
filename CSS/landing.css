@@ -448,6 +448,10 @@ h1{
     padding-left: 15%;
 }
 
+.text3 > p{
+    font-size: 110%;
+}
+
 .button3{
     position: relative;
     background: transparent;
