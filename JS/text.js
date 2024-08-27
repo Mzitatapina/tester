@@ -8,7 +8,7 @@ document.getElementById("h1_History").innerHTML="history of gurieli"
 
 
 document.getElementById("h1_Brand").innerHTML="OUR RESOURCES"
-document.getElementById("brand").innerHTML="Our factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production units equipped with state-of-the art machinery from TI Global (India) for the primary production of both black and green teas, blending and flavoring facilities, packing machinery from IMA S.p.A (Italy), Marden Edwards (Great Britain), Fuso (Japan).The new packing factory was opened in September 2015, equipped with the best , modern machinery. It’s working at full capacity in order to provide better and more diverse packaging for our exclusive products."
+//document.getElementById("brand").innerHTML="Our factory is located in Ozurgeti, Guria. Gurieli tea is produced in our own production units equipped with state-of-the art machinery from TI Global (India) for the primary production of both black and green teas, blending and flavoring facilities, packing machinery from IMA S.p.A (Italy), Marden Edwards (Great Britain), Fuso (Japan).The new packing factory was opened in September 2015, equipped with the best , modern machinery. It’s working at full capacity in order to provide better and more diverse packaging for our exclusive products."
 
 
 
