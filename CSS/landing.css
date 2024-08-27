@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @font-face {
     font-family: 'Albertus Medium';
     font-style: normal;
@@ -506,6 +507,92 @@ button:hover{
     bottom: 0;
     left: 0;
 }
+
+.footer p{
+    font-family: 'krub';
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3%
+}
+
+.button4{
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px groove #FFFFFF;
+    border-radius: 11.5%;
+    padding: 1% 2%;
+    font-family: 'Albertus Medium';
+    font-weight: 100;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.statistics{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10%;
+    margin: 0 5%;
+}
+
+.left, .right{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.first, .second, .third, .forth{
+    display: inline-block;
+    align-items: center;
+}
+
+.first h2{
+    font-family: 'Lora';
+    color:#97A52F;
+    text-align: center;
+}
+
+.second h2{
+    font-family: 'Lora';
+    color:#97A52F;
+    text-align: center;
+}
+
+.third h2{
+    font-family: 'Lora';
+    color:#97A52F;
+    text-align: center;
+}
+
+.forth h2{
+    font-family: 'Lora';
+    color:#97A52F;
+    text-align: center;
+}
+
+.first p{
+    font-family: 'Albertus Medium';
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.second p{
+    font-family: 'Albertus Medium';
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.third p{
+    font-family: 'Albertus Medium';
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.forth p{
+    font-family: 'Albertus Medium';
+    color:#FFFFFF;
+    text-align: center;
+}
+
 
 /*@media screen and (max-width: 768px) {
 
