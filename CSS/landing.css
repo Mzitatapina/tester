@@ -340,7 +340,7 @@ h1{
 }
 
 .text2 > p{
-    font-size: 17px;
+    font-size: 110%;
 }
 
 .button2{
@@ -437,7 +437,7 @@ h1{
 /*2.3 Resources*/
 .brand{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 35% 65%;
     align-items: center; 
 }
 
@@ -459,7 +459,7 @@ h1{
     font-weight: 100;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 78%;
+    margin-left: 75%;
 }
 
 button:hover{
