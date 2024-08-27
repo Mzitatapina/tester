@@ -377,7 +377,7 @@ h1{
     min-width: 100%;
     position: relative;
     z-index: 1;
-    margin-right: 5%;
+    margin-right: 4%;
     
 }
 
@@ -394,7 +394,7 @@ h1{
 .product {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 1%;
     box-sizing: border-box;
 }
 
@@ -425,8 +425,8 @@ h1{
     right: 5%;
 }
 
-.product p{
-    font-size: 20px;
+.product h4{
+    margin:0
 }
 
 .subp{
