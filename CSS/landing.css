@@ -65,7 +65,7 @@ html, body{
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    height: 101.5%;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -295,13 +295,13 @@ h1{
     text-transform: uppercase;
     font-family: 'Playfair Display';
     font-weight: 100;
-    font-size: 40px;
+    font-size: 250%;
     color: #101010;
 }
 
 .history{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 65% 35%;
     column-gap: 2%;
     align-items: center;
     position: relative;
@@ -336,7 +336,7 @@ h1{
     width: 100%;
     padding: 5%;
     color: #545454;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -380,7 +380,7 @@ h1{
 .slide {
     display: flex;
     min-width: 100%;
-    padding-top: 25%;
+    padding-top: 10%;
     padding-bottom: 10%;
     box-sizing: border-box;
     justify-content: space-between;
