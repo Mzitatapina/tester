@@ -543,7 +543,7 @@ button:hover{
 .statistics {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40%;
+    gap: 35%;
     margin: 0 5%;
     transform: translateY(-25%);
 }
