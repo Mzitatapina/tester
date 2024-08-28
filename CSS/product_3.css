@@ -30,42 +30,29 @@ p{
     color: #545454;
 }
 
+
+
 .languagebarcover{
-    position: absolute;
-    height: 100%;
-    width: 7%;
-    z-index: 100;
+    background-color: rgb(46, 46, 46, 0.8);;
+}
+.languagebarcover a{
+    text-decoration: none;
+    text-align: center;
 }
 
 .languagebar{
-    display: block;
-    background-color: rgb(46,46,46, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0;
-    height: 101.5%;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.languagebar a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.languagebar p{
     color: #97A52F;
-    font-weight: 400;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 15%;
 }
+
+
 
 header{
     border-bottom: 1px solid black;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 20% 70%;
 }
 
 
@@ -253,7 +240,7 @@ section{
     border-radius: 5%;
     background-color: rgb(254, 254, 254, 0.9);
     margin: 15% auto; 
-    padding: 1%;
+    padding: 0 2%;
     width: 55%; 
 }
 
@@ -285,16 +272,17 @@ section{
 
 .modal-content > img{
     width: 100%;
-    height: 100%;
+    height: 70%;
     margin: 0;
-    padding: 0;
-    transform: translateX(-20%);
+    padding-top: 20%;
+
+    /*transform: translateX(-20%);*/
 }
 
 .productDescreption{
-    padding-top: 3%;
+    padding-top: 2%;
     margin: 0;
-    transform: translateX(-15%);
+    /*transform: translateX(-15%);*/
 }
 
 .productDescreption > h1{
@@ -323,6 +311,7 @@ section{
     color:#545454;
     font-size: 14px;
     text-align: justify;
+    padding-right:20%;
 }
 
 .productDescreption > h2{
@@ -330,6 +319,8 @@ section{
     font-family: 'Playfair Display';
     font-weight: 100;
     color: #101010;
+    padding-right: 10%;
+    margin-bottom: 10%;
 }
 
 
