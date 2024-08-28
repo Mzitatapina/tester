@@ -154,11 +154,9 @@ ul li .dropdown {
     left: 0;
     top: 100%;
     background-color: rgb(46,46,46,0.5);
-    border-radius: 12%;
-    padding: 10% 20%;
+    border-radius: 5%;
     margin: 0;
     list-style-type: none;
-    border: 1px solid #ccc;
 }
   
 ul li .dropdown li {
@@ -168,17 +166,18 @@ ul li .dropdown li {
 
 .dropdowna{
     padding-left: 8px;
-    font-size: 15px;
+    font-size: 100%;
+    text-transform: capitalize;
 }
 
 .dropdownb{
-    font-size: 12px;
+    font-size: 80%;
+    text-transform: capitalize;
     padding-left: 17px;
 }
 
 ul li .dropdown a:hover{
-    color:#97A52F;
-    font-weight: 600;
+    color:#C7C965;
 }
 
 ul li:hover > .dropdown {
@@ -187,7 +186,7 @@ ul li:hover > .dropdown {
     opacity: 1;
 }
 
-  .dropdown, .dropdown-submenu {
+  .dropdown{
 	display: none;
 	margin-top: 10px; 
     transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -198,13 +197,13 @@ ul li:hover > .dropdown {
     min-width: 150px; 
 }
   
-.dropdown li:hover > .dropdown-submenu {
+/*.dropdown li:hover > .dropdown-submenu {
     display: block;
     max-height: 150px; 
     opacity: 1;
     margin-top: 0; 
     margin-left: 20px;
-}
+}*/
 
 .dropdown li:last-child, .dropdown-submenu li:last-child {
 	border-bottom: none;
@@ -571,6 +570,7 @@ button:hover{
     font-family: 'Lora';
     color: #97A52F;
     font-size: 200%;
+    font-weight: 500;
     margin:0;
     padding: 0;
 }
@@ -580,7 +580,7 @@ button:hover{
     color: #FFFFFF;
     margin:0;
     padding: 0;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /*.footer{
