@@ -147,31 +147,8 @@ a:hover{
     color: #C7C965;
 }
 
-.dropdown{
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    padding: 10% 20%;
-    margin: 0;
-    list-style-type: none;
-    border: 1px solid #ccc;
-}
 
-.dropdowndiv{
-    background-color: rgb(46,46,46,0.5);
-    border-radius: 13%;
-}
-
-.dropdowndiv li{
-    padding: 5%;
-}
-
-.dropdowna:hover{
-    color:#97A52F;
-}
-
-/*ul li .dropdown {
+ul li .dropdown {
     display: none;
     position: absolute;
     left: 0;
@@ -224,7 +201,7 @@ ul li:hover > .dropdown {
 
 .dropdown li:last-child, .dropdown-submenu li:last-child {
 	border-bottom: none;
-}*/
+}
  
 
 .content{
