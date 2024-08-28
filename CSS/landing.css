@@ -140,7 +140,7 @@ li > a{
     text-transform: uppercase;
     text-decoration: none;
     color:  #FFFFFF;  
-    font-size: 20px;
+    font-size: 125%;
 }
 
 a:hover{
@@ -156,22 +156,22 @@ ul li .dropdown {
     background-color: rgb(46,46,46,0.5);
     border-radius: 5%;
     margin: 0;
+    padding: 10% 20%;
     list-style-type: none;
 }
   
 ul li .dropdown li {
-    padding: 0;
-    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+    padding-top: 7%;
 }
 
 .dropdowna{
-    padding-left: 8px;
-    font-size: 100%;
+    font-size: 120%;
     text-transform: capitalize;
+    padding: 5% 0%;
 }
 
 .dropdownb{
-    font-size: 80%;
+    font-size: 100%;
     text-transform: capitalize;
     padding-left: 17px;
 }
@@ -194,7 +194,7 @@ ul li:hover > .dropdown {
     overflow: hidden;
     opacity: 0;
     padding: 10px; 
-    min-width: 150px; 
+    min-width: 180px; 
 }
   
 /*.dropdown li:hover > .dropdown-submenu {
