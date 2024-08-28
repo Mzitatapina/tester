@@ -153,7 +153,8 @@ ul li .dropdown {
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: #C7C965;
+    background-color: rgb(46,46,46,0.5);
+    border-radius: 12%;
     padding: 10% 20%;
     margin: 0;
     list-style-type: none;
@@ -161,16 +162,22 @@ ul li .dropdown {
 }
   
 ul li .dropdown li {
-    padding: 8px;
-    border-bottom: 2px solid #FFFFFF;
+    padding: 0;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
 }
 
 .dropdowna{
+    padding-left: 8px;
     font-size: 15px;
 }
 
+.dropdownb{
+    font-size: 12px;
+    padding-left: 17px;
+}
+
 ul li .dropdown a:hover{
-    color:#FFFFFF;
+    color:#97A52F;
     font-weight: 600;
 }
 
