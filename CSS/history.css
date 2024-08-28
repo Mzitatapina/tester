@@ -246,7 +246,7 @@ h1{
 .statistics {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 35%;
+    gap: 25%;
     margin: 0 5%;
     transform: translateY(-25%);
 }
