@@ -229,8 +229,9 @@ section{
 
 .countries > img{
     position: absolute;
-    max-width: 100%;
+    max-width: 83%;
     padding-top: 1%;
+    transform: translateX(7%);
 }
 
 .experter{
