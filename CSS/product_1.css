@@ -144,12 +144,14 @@ ul li .dropdown li {
     font-size: 120%;
     text-transform: capitalize;
     padding: 5% 0%;
+    color: #FFFF;
 }
 
 .dropdownb{
     font-size: 100%;
     text-transform: capitalize;
     padding-left: 17px;
+    color: #FFFF;
 }
 
 ul li .dropdown a:hover{
