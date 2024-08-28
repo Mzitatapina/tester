@@ -195,16 +195,85 @@ h1{
     transform: translateY(2%);
 }
 
-.footer{
-    background-image: url(../IMAGES/footer.png);
+/*Third part - footer*/
+.footer {
+    width: 100%;
+    height: 16%;
     position: relative;
-    height: 30vh;
-    width: 100vw;
+    background: url(../IMAGES/footer.png) no-repeat center center;
     background-size: cover;
-    background-position:bottom;
-    background-repeat: no-repeat;
-    bottom: 0;
-    left: 0;
-    margin: 0;
+    padding: 2% 0;
+    color: #FFFFFF;
+}
+
+
+.footer p {
+    font-family: 'Krub';
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.footerp{
+    margin: 1% 20% 1% 20%;
+    line-height: 150%;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.button4 {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px groove #FFFFFF;
+    border-radius: 11.5%;
+    padding: 0.5% 1.5%;
+    font-family: 'Albertus Medium';
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    display: block;
+    margin: 0 auto 3%; /* Center the button */
+}
+
+.button4:hover{
+    background-color: rgb(84, 84, 84, 0.8);
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35%;
+    margin: 0 5%;
+    transform: translateY(-25%);
+}
+
+.left, .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.first, .second, .third, .forth {
+    text-align: center;
+    padding:0;
+}
+
+.first h2, .second h2, .third h2, .forth h2 {
+    font-family: 'Lora';
+    color: #97A52F;
+    font-size: 200%;
+    font-weight: 500;
+    margin:0;
     padding: 0;
+}
+
+.first p, .second p, .third p, .forth p {
+    font-family: 'Albertus Medium';
+    color: #FFFFFF;
+    margin:0;
+    padding: 0;
+    font-weight: 500;
 }
