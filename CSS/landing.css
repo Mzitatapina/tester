@@ -529,6 +529,7 @@ button:hover{
     font-family: 'Albertus Medium';
     font-weight: 100;
     font-size: 15px;
+    text-transform: uppercase;
     cursor: pointer;
     align-items: center;
     display: block;
@@ -544,6 +545,7 @@ button:hover{
     grid-template-columns: 1fr 1fr;
     gap: 40%;
     margin: 0 5%;
+    transform: translateY(-25%);
 }
 
 .left, .right {
@@ -554,12 +556,13 @@ button:hover{
 
 .first, .second, .third, .forth {
     text-align: center;
+    padding:0;
 }
 
 .first h2, .second h2, .third h2, .forth h2 {
     font-family: 'Lora';
     color: #97A52F;
-    font-size: 250%;
+    font-size: 200%;
     margin:0;
     padding: 0;
 }
@@ -569,6 +572,7 @@ button:hover{
     color: #FFFFFF;
     margin:0;
     padding: 0;
+    font-weight: 600;
 }
 
 /*.footer{
