@@ -516,12 +516,16 @@ button:hover{
     line-height: 150%;
 }
 
+.footer a{
+    text-decoration: none;
+}
+
 .button4 {
     background: transparent;
     color: #FFFFFF;
     border: 1px groove #FFFFFF;
     border-radius: 11.5%;
-    padding: 1% 2%;
+    padding: 0.5% 1.5%;
     font-family: 'Albertus Medium';
     font-weight: 100;
     font-size: 15px;
@@ -531,10 +535,14 @@ button:hover{
     margin: 0 auto 3%; /* Center the button */
 }
 
+.button4:hover{
+    background-color: rgb(84, 84, 84, 0.8);
+}
+
 .statistics {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10%;
+    gap: 40%;
     margin: 0 5%;
 }
 
@@ -551,11 +559,16 @@ button:hover{
 .first h2, .second h2, .third h2, .forth h2 {
     font-family: 'Lora';
     color: #97A52F;
+    font-size: 250%;
+    margin:0;
+    padding: 0;
 }
 
 .first p, .second p, .third p, .forth p {
     font-family: 'Albertus Medium';
     color: #FFFFFF;
+    margin:0;
+    padding: 0;
 }
 
 /*.footer{
