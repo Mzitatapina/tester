@@ -167,8 +167,7 @@ ul li:hover > .dropdown {
 }*/
 
 
-/*old background for slider*/
-/*.slider-container {
+.slider-container {
     position: relative;
     width: 100%;
     overflow: hidden; 
@@ -178,15 +177,8 @@ ul li:hover > .dropdown {
     position: absolute;
     max-width: 100vw;
     min-height: 100%;
-}*/
-
-/*new background for slider*/
-.slider-container{
-    width: 100%;
-    position: relative;
-    background: url(../IMAGES/footer.png) no-repeat center center;
-    background-size: cover;
 }
+
 
 .slider {
     display: flex;
