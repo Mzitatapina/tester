@@ -590,8 +590,14 @@ button:hover{
 
 
     .phoni{
-        max-height: 100%;
         width: 100%;
+        height: auto; /* Adjusts height automatically based on the image's aspect ratio */
+        object-fit: contain; /* Ensures the image is fully visible without cropping */
+        max-height: 100vh;
+    }
+
+    .languagebarcover{
+        height: 100vh;
     }
 
     .logo{
@@ -623,6 +629,14 @@ button:hover{
     .shortinfo{
         font-weight: 100;
         font-size: 7px;
+    }
+
+    .scroll{
+        display: block;
+        margin-left: 50%;
+        transition: transform 1s ease-in-out;
+        width: 50%;
+        height: 50%;
     }
 
     .maininfo h1{
