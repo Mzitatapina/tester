@@ -600,6 +600,10 @@ button:hover{
         height: 53%;
     }
 
+    .cover{
+        max-height: 100%;
+    }
+
     .logo{
         height: 60%;
         width: 60%;
