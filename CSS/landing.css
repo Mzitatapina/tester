@@ -629,7 +629,7 @@ button:hover{
     }
 
 
-    p{
+    .maininfo p{
         font-size: 6px;
     }
 
@@ -637,9 +637,17 @@ button:hover{
         font-size: 5px;
     }
 
-    h2{
-        font-size: 10px;
+    .first h2, .second h2, .third h2, .forth h2 {
+        font-size: 9px;
+        font-weight: 500;
     }
+    
+    .first p, .second p, .third p, .forth p {
+        font-size: 6px;
+    }
+    
+
+
 
     /*circle {
         position: absolute;
