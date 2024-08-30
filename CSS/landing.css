@@ -636,11 +636,7 @@ button:hover{
     }
 
     .scroll{
-        display: block;
-        margin-left: 50%;
-        transition: transform 1s ease-in-out;
-        width: 50%;
-        height: 50%;
+        display: none;
     }
 
     .maininfo{
