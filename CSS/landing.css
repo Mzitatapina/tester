@@ -597,7 +597,7 @@ button:hover{
     }
 
     .languagebarcover{
-        height: 100vh;
+        height: 53%;
     }
 
     .logo{
@@ -639,6 +639,9 @@ button:hover{
         height: 50%;
     }
 
+    .maininfo{
+        margin-top:25%;
+    }
     .maininfo h1{
         font-size: 50%;
     }
