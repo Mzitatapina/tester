@@ -588,9 +588,10 @@ button:hover{
 
 @media screen and (max-width: 768px) {
 
-    body{
-        display: grid;
-        grid-template-rows: 30% 60% 10%;
+
+    .phoni{
+        max-height: 100%;
+        width: 100%;
     }
 
     .logo{
@@ -635,6 +636,10 @@ button:hover{
 
     .button1, .button2, .button3, .button4{
         font-size: 5px;
+    }
+
+    .footerp{
+        font-size: 6px;
     }
 
     .first h2, .second h2, .third h2, .forth h2 {
