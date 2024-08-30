@@ -601,13 +601,13 @@ button:hover{
     }
 
     .cover{
-        max-height: 80vh;
+        max-height: 54%;
     }
 
     .logo{
-        height: 60%;
-        width: 60%;
-        vertical-align: middle;
+        height: 50%;
+        width: 50%;
+        padding-top: 12%;
     }
   
     
@@ -649,6 +649,10 @@ button:hover{
 
     .maininfo p{
         font-size: 6px;
+    }
+
+    .lowcircle{ 
+        height: 25%;
     }
 
     .button1, .button2, .button3, .button4{
