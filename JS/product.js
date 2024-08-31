@@ -9,14 +9,23 @@ async function openModal(modalId) {
     modalContent.style.opacity = "0"; // Start with content invisible
     modalContent.style.transform = "translateY(-20px)"; // Slightly move up
 
-    setTimeout(function() {
-        modalContent.style.opacity = "0.3"; // Fade in the content
-        modalContent.style.opacity = "0.5"
-        modalContent.style.opacity = "1"
-        modalContent.style.transform = "translateY(0)"; // Move to the normal position
-    }, 700); // Delay in milliseconds (500ms = 0.5s)
+     // Step 1: Fade to 0.3 opacity
+     setTimeout(function() {
+        modalContent.style.opacity = "0.3";
+    }, 300); // Delay for 0.3 seconds
 
+    // Step 2: Fade to 0.5 opacity
+    setTimeout(function() {
+        modalContent.style.opacity = "0.5";
+    }, 500); // Delay for 0.5 seconds
+
+    // Step 3: Fade to full opacity and move to final position
+    setTimeout(function() {
+        modalContent.style.opacity = "1";
+        modalContent.style.transform = "translateY(0)";
+    }, 700); // Delay for 0.7 seconds
 }
+
 
 // Function to close the modal
 async function closeModal(event) {
