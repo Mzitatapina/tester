@@ -5,7 +5,7 @@ async function openModal(modalId) {
 
 
     // Delay the appearance of the modal-content
-    var modalContent = modal.querySelector('.modal-content');
+    var modalContent = modal.querySelector('.productDescreption');
     modalContent.style.opacity = "0"; // Start with content invisible
     modalContent.style.transform = "translateY(-20px)"; // Slightly move up
 
