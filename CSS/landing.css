@@ -234,7 +234,7 @@ ul li:hover > .dropdown {
     text-transform: uppercase;
     font-family: 'Playfair Display';
     font-weight: 100;
-    font-size: 40px;
+    font-size: 250%;
     line-height: 45%;
     color: #FFFFFF;
 }
