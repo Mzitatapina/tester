@@ -597,13 +597,11 @@ button:hover{
     }
 
     .languagebarcover{
-        height: 54%;
+        height: auto;
+        max-height: 100%;
     }
 
     .cover{
-        width: 100%;
-        height: auto; /* Adjusts height automatically based on the image's aspect ratio */
-        object-fit: contain; /* Ensures the image is fully visible without cropping */
         max-height: 100vh;
     }
 
