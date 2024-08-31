@@ -12,7 +12,7 @@ async function openModal(modalId) {
     setTimeout(function() {
         modalContent.style.opacity = "1"; // Fade in the content
         modalContent.style.transform = "translateY(0)"; // Move to the normal position
-    }, 500); // Delay in milliseconds (500ms = 0.5s)
+    }, 300); // Delay in milliseconds (500ms = 0.5s)
 }
 
 // Function to close the modal
