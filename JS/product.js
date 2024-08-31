@@ -10,6 +10,11 @@ async function openModal(modalId) {
     modalContent.style.transform = "translateY(-20px)"; // Slightly move up
 
     setTimeout(function() {
+        modalContent.style.opacity = "0.7"; // Fade in the content
+        modalContent.style.transform = "translateY(0)"; // Move to the normal position
+    }, 300); // Delay in milliseconds (500ms = 0.5s)
+
+    setTimeout(function() {
         modalContent.style.opacity = "1"; // Fade in the content
         modalContent.style.transform = "translateY(0)"; // Move to the normal position
     }, 300); // Delay in milliseconds (500ms = 0.5s)
