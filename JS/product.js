@@ -1,9 +1,18 @@
 // Function to open the modal
 async function openModal(modalId) {
     var modal = document.getElementById(modalId);
-    setTimeout(function() {
         modal.style.display = "block";
-    }, 500);
+
+
+    // Delay the appearance of the modal-content
+    var modalContent = modal.querySelector('.modal-content');
+    modalContent.style.opacity = "0"; // Start with content invisible
+    modalContent.style.transform = "translateY(-20px)"; // Slightly move up
+
+    setTimeout(function() {
+        modalContent.style.opacity = "1"; // Fade in the content
+        modalContent.style.transform = "translateY(0)"; // Move to the normal position
+    }, 500); // Delay in milliseconds (500ms = 0.5s)
 }
 
 // Function to close the modal
