@@ -437,72 +437,19 @@ section{
     font-weight: 500;
 }
 
-/*
+
 @media screen and (max-width: 768px) {
 
     .logo{
-        height: 60%;
-        width: 60%;
-        padding: 5% 20%;
+        height: 50%;
+        width: 50%;
+        padding-top: 12%;
     }
   
-    .forMobile {
-      width: 20%;
-      height: 20%;
-      float: right;
-      cursor: pointer;
-      padding-left: 70%;
-      padding-top: 5%;
-    }
     
-    .menu-box {
-      width: 0;
-      height: 0;
-      display: block;
-      position: fixed;
-      z-index: 100;
-      background-color: rgb(151, 165, 47, 0.8);
-      right: 0;
-      top: 0;
-      padding: 0;
-      overflow: hidden;
-      
-      border-bottom-left-radius: 100%;
-      transition: width 0.1s, height 0.1s, border-radius 0.5s;
-    }
 
-    ul{
-        display: block;
-    }
-
-    li{
-        display: block;
-    }
-    
-    .menu-box a {
-      color: white;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-      font-size: 95%;
-      padding: 0.5%;
-      line-height: 200%;
-    
-    }
-    
-    .exitMobile {
-      width: 10%;
-      height: 10%;
-      float: right;
-      cursor: pointer;
-      margin-top: 0;
-      padding-right: 3%;
-    }
-    
-    .menu-box.open-menu {
-      width: 50%;
-      height: 100%;
-      border-bottom-left-radius: 0;
+    li > a{ 
+        font-size: 40%;
     }
 
     .maininfo{
@@ -510,57 +457,25 @@ section{
     }
 
     .premium, .classic{
-        display: block;
         width: 100%;
-        
     }
 
-    button{
-        display: block;
-        align-items: center;
-        margin: 3%;
-        width: 40%;
-        margin: 3% auto;
-        text-align: center;
+    h1{
+        font-size: 60%;
+    }
+
+    h2{
+        font-size: 40%;
+    }
+    
+    h3{
+        font-size: 30%
     }
 
     h4{
-        font-size: 6px;
+        font-size: 25%;
     }
 
-    .title1, .title2{
-        text-align: center;
-        margin: 0 auto;
-        padding-left: 7%;
-    }
-
-    .modal{
-        font-size: 6px;
-    }
-    .modal-content{
-        width: 80%;
-    }
-        
-    .modal-content > img{
-        width: 10%;
-        height: 80%;
-        padding-top: 10%;
-    }
-
-    .AboutProduct{
-        font-size: xx-small;
-    }
     
-        
-    }
-
-@media screen and (min-width: 768px){
-    .forMobile {
-        display: none;
-    }
-
-    .exitMobile{
-        display: none;
-    }
 }
-*/
+
