@@ -602,7 +602,7 @@ button:hover{
     }
 
     .cover{
-        max-height: 100vh;
+        display:none;
     }
 
     .logo{
