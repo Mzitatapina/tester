@@ -16,19 +16,39 @@ async function openModal(modalId) {
 
     // Step 2: Fade to 0.5 opacity
     setTimeout(function() {
-        modalContent.style.opacity = "0.5";
-    }, 500); // Delay for 0.5 seconds
+        modalContent.style.opacity = "0.4";
+    }, 300); // Delay for 0.5 seconds
 
     // Step 3: Fade to 0.5 opacity
     setTimeout(function() {
+        modalContent.style.opacity = "0.5";
+    }, 300); // Delay for 0.5 seconds
+
+    
+    // Step 4: Fade to 0.5 opacity
+    setTimeout(function() {
+        modalContent.style.opacity = "0.6";
+    }, 300); // Delay for 0.5 seconds
+
+    // Step 5: Fade to 0.5 opacity
+    setTimeout(function() {
+        modalContent.style.opacity = "0.7";
+    }, 300); // Delay for 0.5 seconds
+
+    // Step 6: Fade to 0.5 opacity
+    setTimeout(function() {
         modalContent.style.opacity = "0.8";
-    }, 500); // Delay for 0.5 seconds
+    }, 300); // Delay for 0.5 seconds
 
+    // Step 7: Fade to 0.5 opacity
+    setTimeout(function() {
+        modalContent.style.opacity = "0.9";
+    }, 300); // Delay for 0.5 seconds
 
-    // Step 4: Fade to full opacity and move to final position
+    // Step 8: Fade to full opacity and move to final position
     setTimeout(function() {
         modalContent.style.opacity = "1";
-    }, 700); // Delay for 0.7 seconds
+    }, 300); // Delay for 0.7 seconds
 }
 
 
