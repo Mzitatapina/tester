@@ -12,12 +12,12 @@ async function openModal(modalId) {
      // Step 1: Fade to 0.3 opacity
      setTimeout(function() {
         modalContent.style.opacity = "0.3";
-    }, 300); // Delay for 0.3 seconds
+    }, 100); // Delay for 0.3 seconds
 
     // Step 2: Fade to 0.5 opacity
     setTimeout(function() {
         modalContent.style.opacity = "0.4";
-    }, 300); // Delay for 0.5 seconds
+    }, 200); // Delay for 0.5 seconds
 
     // Step 3: Fade to 0.5 opacity
     setTimeout(function() {
@@ -28,27 +28,27 @@ async function openModal(modalId) {
     // Step 4: Fade to 0.5 opacity
     setTimeout(function() {
         modalContent.style.opacity = "0.6";
-    }, 300); // Delay for 0.5 seconds
+    }, 400); // Delay for 0.5 seconds
 
     // Step 5: Fade to 0.5 opacity
     setTimeout(function() {
         modalContent.style.opacity = "0.7";
-    }, 300); // Delay for 0.5 seconds
+    }, 400); // Delay for 0.5 seconds
 
     // Step 6: Fade to 0.5 opacity
     setTimeout(function() {
         modalContent.style.opacity = "0.8";
-    }, 300); // Delay for 0.5 seconds
+    }, 500); // Delay for 0.5 seconds
 
     // Step 7: Fade to 0.5 opacity
     setTimeout(function() {
         modalContent.style.opacity = "0.9";
-    }, 300); // Delay for 0.5 seconds
+    }, 500); // Delay for 0.5 seconds
 
     // Step 8: Fade to full opacity and move to final position
     setTimeout(function() {
         modalContent.style.opacity = "1";
-    }, 300); // Delay for 0.7 seconds
+    }, 500); // Delay for 0.7 seconds
 }
 
 
