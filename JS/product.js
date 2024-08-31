@@ -1,7 +1,9 @@
 // Function to open the modal
 async function openModal(modalId) {
     var modal = document.getElementById(modalId);
-    modal.style.display = "block";
+    setTimeout(function() {
+        modal.style.display = "block";
+    }, 500);
 }
 
 // Function to close the modal
