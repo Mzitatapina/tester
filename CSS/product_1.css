@@ -446,7 +446,9 @@ section{
         padding-top: 12%;
     }
   
-    
+    .languagebar a{
+        font-size: 5px;
+    }
 
     li > a{ 
         font-size: 40%;
@@ -473,7 +475,11 @@ section{
     }
 
     h4{
-        font-size: 25%;
+        font-size: 30%;
+    }
+
+    p{
+        font-size: 6px;
     }
 
     .button1, .button2, .button3, .button4{
