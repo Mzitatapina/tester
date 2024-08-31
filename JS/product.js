@@ -14,7 +14,7 @@ async function openModal(modalId) {
         modalContent.style.opacity = "0.5"
         modalContent.style.opacity = "1"
         modalContent.style.transform = "translateY(0)"; // Move to the normal position
-    }, 300); // Delay in milliseconds (500ms = 0.5s)
+    }, 700); // Delay in milliseconds (500ms = 0.5s)
 
 }
 
