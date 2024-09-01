@@ -597,10 +597,9 @@ button:hover{
 
 
     .phoni{
-        width: 100%;
+        width: auto;
         height: auto; /* Adjusts height automatically based on the image's aspect ratio */
         object-fit: contain; /* Ensures the image is fully visible without cropping */
-        max-height: 100vh;
     }
 
     .languagebarcover{
