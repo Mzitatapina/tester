@@ -171,7 +171,7 @@ ul li:hover > .dropdown {
     position: relative;
     min-width: 100%;
     overflow: hidden;
-    max-height: 100vh;
+    height: 100vh;
 }
 
 .sliderbackground{
@@ -272,6 +272,9 @@ ul li:hover > .dropdown {
     z-index: 100;
     display: grid;
     grid-template-columns: 50% 50%;
+    top: 0;
+    margin-top: 33%;
+    font-size: 14px;
 }
 
 .text p{
