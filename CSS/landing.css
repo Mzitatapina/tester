@@ -597,7 +597,7 @@ button:hover{
     }
 
     .languagebarcover{
-        height: 54%;
+        height: auto;
     }
 
     .languagebar a{
