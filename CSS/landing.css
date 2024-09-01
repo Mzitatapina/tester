@@ -447,7 +447,7 @@ h1{
 /*2.3 Resources*/
 .brand{
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 45% 55%;
     align-items: center; 
 }
 
@@ -456,6 +456,10 @@ h1{
     font-size: 15px;
     text-align: justify;
     padding-left: 15%;
+}
+
+.text3 > h1{
+    text-align: end;
 }
 
 .text3 > p{
@@ -481,7 +485,7 @@ button:hover{
 }
 
 .background3{
-    padding-left: 25%;
+    margin-left: 10%;
     position: relative;
 }
 
