@@ -22,6 +22,8 @@ h1{
     font-family: 'Playfair display';
     text-transform: uppercase;
     color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 0;
 }
 
 
@@ -226,10 +228,12 @@ ul li:hover > .dropdown {
 
 #description1{
     text-align: left;
+    padding-left: 5%;
 }
 
 #description2{
     text-align: right;
+    padding-right: 5%;
 }
 
 .productdescription p{
