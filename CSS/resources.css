@@ -40,6 +40,10 @@ header{
     padding-left: 15%;
 }
 
+.languagebar{
+    font-family: 'Krub';
+}
+
 .logo{
     height: 60%;
     width: 60%;
