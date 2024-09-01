@@ -643,7 +643,12 @@ button:hover{
 
     .maininfo{
         margin-top:25%;
+        width: 100%;
+        height: auto;
+        padding: 10% 2%;
+        background-color: #EDEDEB;        
     }
+
     .maininfo h1{
         font-size: 50%;
     }
