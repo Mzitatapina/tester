@@ -15,9 +15,9 @@ html, body{
 }
 
 header{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #565656;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 20% 70%;
 }
 
 
