@@ -311,11 +311,11 @@ h1{
 
 .history{
     display: grid;
-    grid-template-columns: 65% 35%;
-    column-gap: 2%;
+    grid-template-columns: 60% 40%;
+    /* column-gap: 2%; */
     align-items: center;
     position: relative;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 
