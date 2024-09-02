@@ -294,6 +294,7 @@ ul li:hover > .dropdown {
 
 .next {
     right: 10px;
+    margin-right: 0;
 }
 
 .product p{
