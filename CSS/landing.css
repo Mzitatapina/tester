@@ -610,8 +610,8 @@ button:hover{
     }
 
     .phoni{
+        position: absolute;
         height: auto;
-        width: auto;
         object-fit: contain;
         object-position: center;
     }
@@ -649,7 +649,7 @@ button:hover{
 
 
     .phoni{
-        width: auto;
+        position: absolute;
         height: auto; /* Adjusts height automatically based on the image's aspect ratio */
         object-fit: contain; /* Ensures the image is fully visible without cropping */
     }
