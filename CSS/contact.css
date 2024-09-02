@@ -167,7 +167,6 @@ h1{
     font-weight: 100;
     text-align: left;
     padding-left: 10%;
-    padding-top: 3%;
 }
 
 h3{
@@ -199,7 +198,7 @@ section{
 .adress1{
     display: grid;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .line1, .line2, .line3, .adress2{
