@@ -51,6 +51,9 @@ html, body{
     font-weight: 400;
 }
 
+#bottom{
+    padding-top: 350%;
+}
 
 header{
     border-bottom: 1px solid #565656;
