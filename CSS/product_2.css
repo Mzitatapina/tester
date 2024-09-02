@@ -237,7 +237,9 @@ section{
     background-color: rgb(254, 254, 254, 0.9);
     margin: 10% auto; 
     padding: 1% 2%;
-    width: 55%; 
+    padding-bottom: 2%;
+    padding-right: 2.5%;
+    width: 55%;
 }
 
 
