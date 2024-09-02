@@ -274,6 +274,10 @@ ul li:hover > .dropdown {
     margin-bottom: 25%;
 }
 
+#special4{
+    width: 95%;
+}
+
 
 .prev, .next {
     position: absolute;
