@@ -603,27 +603,29 @@ button:hover{
     }
 
     .background{
-        height: 30%;
+        height: 30vh;
         width: 100vw;
-        object-fit: contain;
+        position: relative;
+        overflow: hidden;
     }
 
     .phoni{
-        max-height: 100%;
-        min-width: 100vw;
-        object-fit: contain;
+        height: 100%;
+        width: 100%;
+        object-fit: cover; /* Ensure it covers the entire background */
+        object-position: center; /* Center the image */
     }
 
     .maininfo{
-        height: 60%;
+        height: 60vh;
         width: 100vw;
-        object-fit: contain;
+        overflow: hidden;
     }
 
     .footer{
-        height: 10%;
+        height: 10vh;
         width: 100vw;
-        object-fit: contain;
+        overflow: hidden;
     }
 }
 
