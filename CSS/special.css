@@ -266,6 +266,10 @@ ul li:hover > .dropdown {
     width: 95%
 }
 
+.special3{
+    width: 105%;
+}
+
 #specialh2{
     margin-bottom: 25%;
 }
