@@ -627,6 +627,11 @@ button:hover{
         height: 100%;
     }
 
+    nav{
+        padding-left: 10%;
+       
+    }
+
     .maininfo{
         height: 60vh;
         width: 100vw;
