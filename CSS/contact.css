@@ -47,8 +47,9 @@ html, body{
 }
 
 .languagebar p{
+    font-family: 'krub';
     color: #97A52F;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #bottom{
