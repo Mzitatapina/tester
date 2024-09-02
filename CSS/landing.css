@@ -611,13 +611,12 @@ button:hover{
 
     .phoni{
         position: absolute;
-        top: 50%;
+        top: 0;
         left: 50%;
-        transform: translate(-50%, -50%);
         height: 100%;
-        width: 100%;
-        object-fit: contain;
-        object-position: center;
+        width: auto; /* Let the width adjust according to the height */
+        transform: translateX(-50%);
+        object-fit: contain; /* Scale the image to fit the height */
     }
 
     /*.cover{
