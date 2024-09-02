@@ -616,12 +616,16 @@ button:hover{
         object-position: center; /* Center the image */
     }
 
-    /*.cover{
+    .cover{
         position: absolute;
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.2);
-    }*/
+    }
+
+    .languagebarcover{
+        height: 100%;
+    }
 
     .maininfo{
         height: 60vh;
