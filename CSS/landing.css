@@ -594,55 +594,7 @@ button:hover{
 }
 
 
-@media screen and (max-width: 480px){
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        height: auto;
-        width: auto;
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-    }
 
-    .background {
-        background-image: url(../IMAGES/agriculture.jpg);
-        height: 100vh;
-        width: 100vw;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-    .phoni{
-        display:none;
-      }
-      
-    .languagebar a{
-        font-size: 5px;
-    }
-
-    .languagebar{
-        display: inline-block;
-    }
-
-    nav{
-        padding-left: 20%;
-    }
-
-    .maininfo{
-        /*height: 50vh;*/
-        margin-top: 0;
-        width: 100vw;
-        padding: 0 2%;
-        overflow: hidden;
-    }
-
-    .footer{
-        /*height: 10vh;*/
-        width: 100vw;
-        overflow: hidden;
-    }
-}
 
 @media screen and (max-width: 768px) {
 
@@ -735,5 +687,56 @@ button:hover{
     
     .first p, .second p, .third p, .forth p {
         font-size: 6px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: auto;
+        width: auto;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .background {
+        background-image: url(../IMAGES/agriculture.jpg);
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    .phoni{
+        display:none;
+      }
+      
+    .languagebar a{
+        font-size: 5px;
+    }
+
+    .languagebar{
+        display: inline-block;
+    }
+
+    nav{
+        padding-left: 20%;
+    }
+
+    .maininfo{
+        /*height: 50vh;*/
+        margin-top: 0;
+        width: 100vw;
+        padding: 0 2%;
+        overflow: hidden;
+    }
+
+    .footer{
+        /*height: 10vh;*/
+        width: 100vw;
+        overflow: hidden;
     }
 }
