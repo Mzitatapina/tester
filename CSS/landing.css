@@ -770,6 +770,11 @@ button:hover{
         font-size: 20%;
     }
 
+    .lowcircle{
+        height: 60%;
+        transform: translateY(-15%); 
+    }
+
     .footer{
         /*height: 10vh;*/
         width: 100vw;
