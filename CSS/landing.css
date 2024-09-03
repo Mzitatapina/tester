@@ -107,9 +107,6 @@ header{
     padding-top: 0.5%; 
 }
 
-.languagebarcover2{
-    display:none;
-}
 
 .logo{
     height: 60%;
@@ -636,40 +633,6 @@ button:hover{
         display:none;
     }
 
-    .languagebarcover{
-        display:none
-    }
-    .languagebarcover2{
-        background-color: rgb(46, 46, 46, 0.8);;
-    }
-    .languagebarcover2 a{
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    .languagebar2{
-        display:inline-block;
-        color: #97A52F;
-        font-weight: 600;
-        display: inline-block;
-        padding-left: 15%;
-    }
-    
-
-    header{
-        border-bottom: 1px solid black;
-        display: grid;
-        grid-template-columns: 10% 20% 70%;
-    }
-    
-    
-    .logo{
-        height: 60%;
-        width: 60%;
-        vertical-align: middle;
-        padding-top: 2.5%;
-        padding-left: 15%;
-    }
     
     nav{
         padding-left: 20%;
@@ -698,40 +661,11 @@ button:hover{
         object-fit: contain; /* Ensures the image is fully visible without cropping */
     }
 
-    .languagebarcover2{
-        background-color: rgb(46, 46, 46, 0.8);
-    }
-    .languagebarcover2 a{
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    .languagebar2{
-        color: #97A52F;
-        font-weight: 600;
-        display: inline-block;
-        padding-left: 15%;
-    }
-    
 
     .cover{
         display:none;
     }
 
-    header{
-        border-bottom: 1px solid black;
-        display: grid;
-        grid-template-columns: 10% 20% 70%;
-    }
-    
-    
-    .logo{
-        height: 60%;
-        width: 60%;
-        vertical-align: middle;
-        padding-top: 2.5%;
-        padding-left: 15%;
-    }
     
     nav{
         padding-left: 20%;
