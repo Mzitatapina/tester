@@ -750,12 +750,12 @@ button:hover{
     }
 
     .maininfo h1{
-        font-size: 40%;
+        font-size: 30%;
     }
 
 
     .maininfo p{
-        font-size: 5px;
+        font-size: 3px;
     }
 
     .prev, .next{
@@ -782,6 +782,6 @@ button:hover{
     }
 
     .footerp{
-        font-size: 5px
+        font-size: 5px;
     }
 }
