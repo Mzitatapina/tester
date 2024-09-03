@@ -716,13 +716,17 @@ button:hover{
     .phoni{
         display:none;
       }
+
+    .languagebarcover{
+        height: 44vh;
+    }
       
     .languagebar a{
         font-size: 5px;
     }
 
     .languagebar{
-        display: inline-block;
+        padding-top: 600%;
     }
 
     nav{
@@ -752,6 +756,14 @@ button:hover{
 
     .maininfo p{
         font-size: 5px;
+    }
+
+    .prev, .next{
+        padding: 5px;
+    }
+
+    .next{
+        right: 4%
     }
 
     h2, h4{
