@@ -302,15 +302,31 @@ h1{
 }
 
 @media screen and (max-width: 768px){
+    .languagebar{
+        font-size: 5px;
+    }
+    
     li > a{
         font-size: 30%;
     }
 
-    p{
+    .image1 > img{
+        width: 100vw;
+    } 
+
+    .text1 > p{
+        font-size: 9px;
+    }
+
+    .text2 > p{
+        font-size: 9px;
+    }
+
+    .p1, .p2, .footerp{
         font-size: 5px;
     }
 
-    button{
+    .button4{
         font-size: 5px;
     }
 
@@ -320,15 +336,31 @@ h1{
 }
 
 @media screen and (max-width: 768px){
+    .languagebar{
+        font-size: 5px;
+    }
+
     li > a{
         font-size: 40%;
     }
 
-    p{
+    .image1 > img{
+        width: 100vw;
+    } 
+
+    .text1 > p{
         font-size: 9px;
     }
 
-    button{
+    .text2 > p{
+        font-size: 9px;
+    }
+
+    .p1, .p2, .footerp{
+        font-size: 9px;
+    }
+
+    .button4{
         font-size: 5px;
     }
 
