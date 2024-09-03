@@ -604,12 +604,12 @@ button:hover{
         scroll-behavior: smooth;
     }
 
-    .background{
+    /*.background{
         height: 40vh;
         width: 100vw;
         position: relative;
         overflow: hidden;
-    }
+    }*/
 
     .phoni{
         position: absolute;
