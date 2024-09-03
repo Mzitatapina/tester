@@ -615,7 +615,7 @@ button:hover{
     .phoni{
         position: absolute;
         height: 100vh;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
     }
 
