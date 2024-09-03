@@ -619,13 +619,15 @@ button:hover{
     }
     
     nav{
-        padding-left: 20%;
+        padding-left: 5%;
     }
   
-    
-    li > a{
+    li a{
+        font-size: 0.5em;
+    }
 
-    font-size: 40%;
+    .logo{
+        padding-top: 15%
     }
     
     .firstline{
@@ -677,16 +679,16 @@ button:hover{
     }
 
     .footerp{
-        font-size: 6px;
+        font-size: 5px;
     }
 
     .first h2, .second h2, .third h2, .forth h2 {
-        font-size: 9px;
+        font-size: 0.4em;
         font-weight: 500;
     }
     
     .first p, .second p, .third p, .forth p {
-        font-size: 6px;
+        font-size: 5px;
     }
 }
 
@@ -708,6 +710,7 @@ button:hover{
         width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-bottom: 10%;
       }
 
     .phoni{
@@ -723,20 +726,45 @@ button:hover{
     }
 
     nav{
-        padding-left: 20%;
+        padding-left: 5%;
     }
 
+    li a{
+        font-size: 0.5em;
+    }
+
+    .logo{
+        padding-top: 15%
+    }
+    
     .maininfo{
         /*height: 50vh;*/
         margin-top: 0;
         width: 100vw;
-        padding: 0 2%;
+        padding: 10% 2%;
         overflow: hidden;
+    }
+
+    .maininfo h1{
+        font-size: 40%;
+    }
+
+
+    .maininfo p{
+        font-size: 5px;
+    }
+
+    h2, h4{
+        font-size: 20%;
     }
 
     .footer{
         /*height: 10vh;*/
         width: 100vw;
         overflow: hidden;
+    }
+
+    .footerp{
+        font-size: 5px
     }
 }
