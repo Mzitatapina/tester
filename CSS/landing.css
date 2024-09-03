@@ -638,6 +638,7 @@ button:hover{
     .maininfo{
         /*height: 50vh;*/
         width: 100vw;
+        padding: 0 2%;
         overflow: hidden;
     }
 
