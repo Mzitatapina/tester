@@ -609,14 +609,18 @@ button:hover{
     .cover{
         display:none;
     }
+
+    .languagebarcover{
+        display: none;
+    }
       
-    .languagebar a{
+    /*.languagebar a{
         font-size: 5px;
     }
 
     .languagebar{
         display: inline-block;
-    }
+    }*/
     
     nav{
         padding-left: 5%;
