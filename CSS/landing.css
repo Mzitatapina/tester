@@ -603,7 +603,7 @@ button:hover{
     }
 
     .background{
-        height: 20vh;
+        height: 40vh;
         width: 100vw;
         position: relative;
         overflow: hidden;
@@ -633,7 +633,7 @@ button:hover{
     }
 
     .maininfo{
-        height: 70vh;
+        height: 50vh;
         width: 100vw;
         overflow: hidden;
     }
