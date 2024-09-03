@@ -613,10 +613,21 @@ button:hover{
         background-size: cover;
       }
 
-      .phoni{
+    .phoni{
         display:none;
       }
       
+    .languagebar a{
+        font-size: 5px;
+    }
+
+    .languagebar{
+        display: inline-block;
+    }
+
+    nav{
+        padding-left: 20%;
+    }
 
     .maininfo{
         /*height: 50vh;*/
@@ -647,12 +658,16 @@ button:hover{
         display:none;
     }
 
-    .languagebarcover{
-        height: auto;
+    .phoni{
+        display:none;
+      }
+      
+    .languagebar a{
+        font-size: 5px;
     }
 
     .languagebar{
-        font-size: 5px;
+        display: inline-block;
     }
     
     nav{
