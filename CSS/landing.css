@@ -512,7 +512,7 @@ button:hover{
 /*Third part - footer*/
 .footer {
     width: 100%;
-    height: 16vh;
+    height: 16%;
     position: relative;
     background: url(../IMAGES/footer.png) no-repeat center center;
     background-size: cover;
