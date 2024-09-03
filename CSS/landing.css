@@ -616,7 +616,6 @@ button:hover{
         position: absolute;
         height: 100vh;
         object-fit: cover;
-        object-position: center;
     }
 
     .cover{
