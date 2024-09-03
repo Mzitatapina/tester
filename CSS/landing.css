@@ -612,10 +612,15 @@ button:hover{
         background-repeat: no-repeat;
         background-size: cover;
       }
+
+      .phoni{
+        display:none;
+      }
       
 
     .maininfo{
         /*height: 50vh;*/
+        margin-top: 0;
         width: 100vw;
         padding: 0 2%;
         overflow: hidden;
@@ -680,6 +685,7 @@ button:hover{
     }
 
     .maininfo{
+        margin-top: 25%;
         width: 100%;
         height: auto;
         padding: 10% 2%;
