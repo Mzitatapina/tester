@@ -605,8 +605,9 @@ button:hover{
 
     .background {
         background-image: url(../IMAGES/agriculture.jpg);
-        height: 100vh;
+        height: auto;
         width: 100vw;
+        background-repeat: no-repeat;
         background-size: contain;
       }
     /*.background{
@@ -633,7 +634,14 @@ button:hover{
         display:none;
     }
 
-    
+    .languagebarcover{
+        height: auto;
+    }
+
+    .languagebar{
+        font-size: 5px;
+    }
+
     nav{
         padding-left: 20%;
     }
@@ -666,6 +674,13 @@ button:hover{
         display:none;
     }
 
+    .languagebarcover{
+        height: auto;
+    }
+
+    .languagebar{
+        font-size: 5px;
+    }
     
     nav{
         padding-left: 20%;
