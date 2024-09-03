@@ -704,7 +704,7 @@ button:hover{
 
     .background {
         background-image: url(../IMAGES/agriculture.jpg);
-        height: 100vh;
+        height: auto;
         width: 100vw;
         background-repeat: no-repeat;
         background-size: cover;
