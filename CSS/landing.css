@@ -718,16 +718,16 @@ button:hover{
       }
 
     .languagebarcover{
-        height: 44vh;
+        display: none;
     }
       
-    .languagebar a{
+    /*.languagebar a{
         font-size: 5px;
     }
 
     .languagebar{
         padding-top: 600%;
-    }
+    }*/
 
     nav{
         padding-left: 5%;
