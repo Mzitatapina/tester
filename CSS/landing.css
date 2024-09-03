@@ -755,7 +755,7 @@ button:hover{
 
 
     .maininfo p{
-        font-size: 3px;
+        font-size: 1.5px;
     }
 
     .prev, .next{
@@ -771,8 +771,7 @@ button:hover{
     }
 
     .lowcircle{
-        height: 40%;
-        transform: translateY(-5%); 
+        height: 25%;
     }
 
     .footer{
