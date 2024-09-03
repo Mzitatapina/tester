@@ -22,10 +22,7 @@ html, body{
 }
 
 /*1st part with backgroud image: header, hilights, social media*/
-.background{
-        height: 40vh;
-        width: 100vw;
-}
+
 
 .phoni{
     position: absolute;
